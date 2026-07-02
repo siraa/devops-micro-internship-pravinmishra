@@ -33,7 +33,12 @@ You will reuse this in later weeks. So do it properly once.
 
 ## Answer
 
-Add your answer here...
+
+I believe that consistency is far more important than talent or intelligence. Most people around me think success comes from being naturally gifted or waiting for the right opportunity.
+I disagree.
+I have learned that showing up every day, practicing consistently, and continuously improving your skills produces better long-term results than relying on talent alone. This belief is one of the reasons 
+I believe discipline creates opportunities, while motivation is temporary and unreliable.
+
 
 ---
 
@@ -54,12 +59,11 @@ Write each truth in this format:
 ## Truth #1
 
 ### Truth
+Asking questions when I don't understand something accelerates learning.
 
-Add your answer here...
 
 ### Evidence from my life
-
-Add your answer here...
+At first, I hesitated to ask questions because I was afraid of making mistakes. Once I started asking instructors and the community for help, I solved problems faster, learned from others' experiences, and made steady progress in my DevOps journey.
 
 ---
 
@@ -67,11 +71,11 @@ Add your answer here...
 
 ### Truth
 
-Add your answer here...
+Consistent daily practice produces better results than studying only when I feel motivated.
 
 ### Evidence from my life
 
-Add your answer here...
+I started dedicating time every day to learning AWS, Git, Linux, and DevOps, even if it was only one or two hours. After a few weeks, I understood concepts much faster and completed more hands-on labs than when I studied only occasionally.
 
 ---
 
@@ -79,11 +83,12 @@ Add your answer here...
 
 ### Truth
 
-Add your answer here...
+Practical experience teaches more than passive learning.
 
 ### Evidence from my life
 
-Add your answer here...
+I spent many hours watching tutorial videos, but I noticed I retained very little. When I began creating GitHub projects, using AWS services, and solving real exercises, my understanding and confidence improved significantly.
+
 
 ---
 
@@ -94,6 +99,7 @@ Add your answer here...
 Write as if a journalist is writing about you **3 to 7 years from now** (not 20 years).
 
 **Minimum 300 words.**
+
 
 ### Rules
 
@@ -135,13 +141,25 @@ Include this line:
 
 ## Your Article
 
-Add your answer here...
+My Version 2.0
+
+Over the past few years, I built my career in DevOps and cloud engineering through hands-on practice and continuous learning. I earned cloud certifications and applied them by building real-world projects instead of staying only in theory.
+
+I built and shipped multiple projects using Git, Docker, AWS, and CI/CD pipelines. I published my work on GitHub, which became my technical portfolio and proof of my skills. Each project focused on automation, deployment, and cloud infrastructure basics.
+
+I contributed to the community by writing simple blog posts and sharing learning notes from my journey. I helped beginners understand DevOps concepts through practical examples and real mistakes I made while learning.
+
+In my job role, I worked on deployment automation, system troubleshooting, and improving delivery processes. I led small tasks within team workflows and collaborated with developers to improve release efficiency and system reliability.
+
+Every certification I earned, every project I shipped, and every contribution I made helped me grow step by step. I built my experience through execution, consistency, and problem-solving.
+
+Today, my portfolio, GitHub activity, certifications, and projects reflect real, practical DevOps skills developed through experience.
 
 ### Public Link
 
 Paste your link here:
 
-`__________________________`
+`https://www.linkedin.com/posts/taysir-ouaslati-9b6527a3_my-version-20-over-the-past-few-years-share-7478367073870659584-De7O/?utm_source=share&utm_medium=member_desktop&rcm=ACoAABX4AtoB0tpceeC8Jnqozhzdi2ViZ02bFHk`
 
 ---
 
@@ -172,8 +190,8 @@ If Yes:
 **What emotion did you feel?** (minimum 50–100 words)
 
 ## Answer
-
-Add your answer here...
+ ** Yes
+There was a time when I chose an easier way to finish a task instead of doing it properly. At first, I thought it would save me time, but afterward I felt uncomfortable and disappointed with myself. I kept thinking that I should have done the work the right way. The shortcut only saved a little time, but it also made me feel stressed because I wasn't confident in the result and worried that my mistakes would be noticed later. That experience taught me that doing honest, quality work is always better than looking for the fastest solution. Since then, I have made a real effort to learn things correctly, ask for help when I need it, and take full responsibility for my work, even if it takes more time.
 
 ---
 
@@ -199,16 +217,13 @@ Choose books that improve:
 
 ## Book List
 
-1. Add your answer here...
-2. Add your answer here...
-3. Add your answer here...
-4. Add your answer here...
-5. Add your answer here...
-6. Add your answer here...
-7. Add your answer here...
-8. Add your answer here...
-9. Add your answer here...
-10. Add your answer here...
+1. Thinking, Fast and Slow 
+
+![alt text](screenshots\thinking-fast-slow.jpg)
+
+2. The Phoenix Project 
+
+ ![alt text](screenshots\phoenix.jpg)
 
 ---
 
@@ -237,16 +252,20 @@ List topics only. No need to share numbers.
 
 ## My Metrics
 
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
+To stay consistent and continue improving, I will regularly track the areas that have the biggest impact on my personal and professional growth. Measuring my progress will help me stay focused, identify what needs improvement, and build better habits over time.
+
+* Time spent learning new DevOps and cloud skills each week
+* Focus time / deep work sessions without distractions
+* Number of tasks or study goals completed each week
+* Energy level and how productive I feel during the day
+* Sleep hours and general health
+* Money spent on learning tools, courses, or resources
+* Progress on certifications and skills learned
+* Practice and hands-on labs completed (Git, AWS, Docker, etc.)
+* Projects built and pushed to GitHub
+* Consistency in my weekly learning routine
+  
+
 
 ---
 
@@ -267,12 +286,13 @@ Examples:
 * Responsibilities
 
 ### Did You Do It?
-
 **Yes / No**
+
+Yes
 
 Answer:
 
-Add your answer here...
+I wrote down everything that was in my mind, including pending tasks, learning goals, personal responsibilities, and small things I kept postponing. It helped me clear mental clutter and understand what needs priority right now. I also noted down my DevOps learning goals, assignments, and daily routine so I can follow a more structured plan for the next few months.
 
 ---
 
@@ -290,7 +310,18 @@ Example:
 
 #### My Weekly Routine
 
-Add your answer here...
+My Weekly Routine
+Monday – Friday:
+ 2 hours of focused DevOps learning and hands-on practice (AWS, Linux, Git, Docker, CI/CD).
+
+Tuesday & Thursday: 
+Spend 30 minutes reviewing notes and documenting what I learned.
+
+Saturday:
+ Attend the DMI live session, complete the weekly assignment, and work on a hands-on project.
+
+Sunday: 
+Review my progress, update my GitHub portfolio, plan the next week's goals, and read a chapter from a technical or personal development book.
 
 ---
 
@@ -298,11 +329,19 @@ Add your answer here...
 
 #### When Will You Do DMI Work? (Days + Time)
 
-Add your answer here...
+Monday to Friday:
+ 7:00 PM – 9:00 PM (study, hands-on labs, and assignments)
+
+Saturday: 
+During the live DMI session and 1–2 hours afterward to complete the weekly tasks
+
+Sunday: 
+7:00 AM – 17:00 PM (review the week's learning, update GitHub, and prepare for the next week)
 
 #### How Many Sessions Per Week?
 
-Add your answer here...
+I will dedicate 7 study sessions per week for DMI.
+Five sessions will be on weekdays for learning and hands-on practice, one session will be for the live DMI class on Saturday, and one session on Sunday will be used to review what I learned, update my GitHub portfolio, and plan my goals for the following week.
 
 ---
 
@@ -316,37 +355,51 @@ Examples:
 
 #### My Distraction Rules
 
-Add your answer here...
+My Distraction Rules
 
+Keep my phone on silent while studying.
+Avoid social media until I finish my planned study session.
+Study in a quiet and organized workspace.
+Close unnecessary tabs and applications before starting.
+Follow one task at a time without multitasking.
+Take a short break after each focused study session.
+Review my daily goals before starting and track my progress when I finish.
 ---
 
 # Reflection – Week 1
 
 ### Biggest insight I got about myself this week
 
-Add your answer here...
+This week, I realized that I learn best when I have a clear plan and stay consistent.
+I also noticed that I understand technical concepts much better when I practice them instead of only reading or watching videos. Small daily progress keeps me motivated and helps me build confidence in my skills.
 
 ### My biggest weakness/loop I noticed
 
-Add your answer here...
+One thing I noticed about myself is that I sometimes overthink things. 
+When I face a difficult topic or make a mistake, I spend too much time trying to find the perfect solution instead of making progress. 
+This can slow me down and affect my confidence. I realized that learning is a process, and it's okay not to know everything immediately. 
+Going forward, I will focus on taking small steps, practicing consistently, and asking for help when I need it instead of trying to solve everything on my own.
 
 ### One system I will implement from this week (exact habit + time)
 
-Add your answer here...
+Starting this week, I will follow a fixed study routine from 7:00 PM to 9:00 PM, Monday to Friday. During this time, I will focus only on DMI learning, hands-on practice, and completing my weekly tasks. Before each session, 
+I will write down one main goal, and at the end, I will spend 10 minutes reviewing what I learned and planning the next session.
 
 ### LinkedIn Post
 
 Paste your LinkedIn post link here:
 
-`__________________________`
+`__https://www.linkedin.com/posts/taysir-ouaslati-9b6527a3_to-stay-consistent-and-continue-improving-share-7478373543274004481-qg-O/?utm_source=share&utm_medium=member_desktop&rcm=ACoAABX4AtoB0tpceeC8Jnqozhzdi2ViZ02bFHk________________________`
 
 ---
 
 ## 10. Proof of Work
 
 - LinkedIn Post URL: **ADD LINK HERE**  
-- Blog / Medium : **ADD LINK HERE**  
+https://www.linkedin.com/posts/taysir-ouaslati-9b6527a3_to-stay-consistent-and-continue-improving-share-7478373543274004481-qg-O/?utm_source=share&utm_medium=member_desktop&rcm=ACoAABX4AtoB0tpceeC8Jnqozhzdi2ViZ02bFHk
 
+- Blog / Medium : **ADD LINK HERE**  
+https://medium.com/@westatou/why-consistency-matters-more-than-talent-in-learning-devops-d40073801edc
 ---
 
 ## 📌 About DMI & CloudAdvisory
