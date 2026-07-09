@@ -22,6 +22,7 @@ Discover exactly where Claude Code stores memory for this project.
 
 Add your screenshot here.
 
+![alt text](screenshots\memory-file.png)
 ---
 
 # Task 2 — Give Claude Information to Remember
@@ -36,11 +37,21 @@ Teach Claude three specific facts about the project and instruct it to save them
 
 Add your screenshot here.
 
+
+![alt text](screenshots\update-memory-file.png)
+
+
 ---
 
 #### Screenshot 3 — The `MEMORY.md` file open in VS Code showing the saved content
 
 Add your screenshot here.
+
+
+![alt text](screenshots\memory-memory-md.png)
+
+
+
 
 ---
 
@@ -56,6 +67,9 @@ Terminate the current Claude Code session and restart it to ensure memory is the
 
 Add your screenshot here.
 
+![alt text](screenshots\claude-open-vide.png)
+
+
 ---
 
 # Task 4 — Prove Memory Recall Across Sessions
@@ -70,12 +84,15 @@ Run three tests that prove Claude remembers what you told it — without you say
 
 Add your screenshot here.
 
+![alt text](screenshots\color-used.png)
+
 ---
 
 #### Screenshot 6 — Claude refusing JavaScript request based on memory rule
 
 Add your screenshot here.
 
+![alt text](screenshots\ask-add-js.png)
 ---
 
 # Submission Instructions
@@ -91,7 +108,7 @@ Add your screenshot here.
 
 Paste your Linkedin post link here:
 
-`__________________________`
+https://www.linkedin.com/posts/taysir-ouaslati-9b6527a3_devops-agenticai-claudecode-share-7481100238120865792-ZLJA/?utm_source=share&utm_medium=member_desktop&rcm=ACoAABX4AtoB0tpceeC8Jnqozhzdi2ViZ02bFHk
 
 ---
 
@@ -99,7 +116,7 @@ Paste your Linkedin post link here:
 
 Paste your forked repository URL here:
 
-`__________________________`
+https://github.com/siraa/Ultimate-Agentic-DevOps-with-Claude-Code
 
 ---
 

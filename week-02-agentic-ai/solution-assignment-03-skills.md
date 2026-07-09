@@ -22,6 +22,8 @@ Create the required `.claude/skills/` directory structure for all skills.
 
 Add your screenshot here.
 
+![alt text](screenshots\5files-added.png)
+
 ---
 
 # Task 2 — Add the Skill Files
@@ -36,12 +38,14 @@ Place all required skill files into their correct directories and verify their c
 
 Add your screenshot here.
 
+![alt text](screenshots\skills-terraform.png)
 ---
 
 #### Screenshot 3 — Screenshot 3 — `tf-plan/SKILL.md` frontmatter showing `allowed-tools: Bash, Read, Grep` (no Write) and `disable-model-invocation: true`
 
 Add your screenshot here.
 
+![alt text](screenshots\skill-tf-plan.png)
 ---
 
 # Task 3 — Run /scaffold-terraform
@@ -56,12 +60,14 @@ Execute the `/scaffold-terraform` skill to generate a full Terraform infrastruct
 
 Add your screenshot here.
 
+![alt text](screenshots\generated-file-summary.png)
 ---
 
 #### Screenshot 5 — VS Code sidebar showing the `terraform/` folder with all generated files inside
 
 Add your screenshot here.
 
+![alt text](screenshots\terraform-files.png)
 ---
 
 # Task 4 — Run terraform init and /tf-plan
@@ -75,6 +81,8 @@ Initialize Terraform and execute the `/tf-plan` skill to observe plan execution 
 #### Screenshot 6 — Claude's `/tf-plan` response showing it ran the command and analyzed the result (pass or auth error both count)
 
 Add your screenshot here.
+
+![alt text](screenshots\Terraform-output.png)
 
 ---
 
@@ -90,13 +98,14 @@ Add your screenshot here.
 
 Paste your forked repository URL here:
 
-`__________________________`
+https://github.com/siraa/Ultimate-Agentic-DevOps-with-Claude-Code
 
 ## LinkedIn post URL
 
 Paste your forked repository URL here:
 
-`__________________________`
+https://github.com/siraa/Ultimate-Agentic-DevOps-with-Claude-Code
+
 ---
 
 # Completion Checklist

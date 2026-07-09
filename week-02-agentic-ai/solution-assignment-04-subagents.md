@@ -22,6 +22,7 @@ Create the `.claude/agents/` directory and add all required agent files.
 
 Add your screenshot here.
 
+![alt text](screenshots\file-claude-agent.png)
 ---
 
 # Task 2 — Compare the Agent Configurations
@@ -34,19 +35,33 @@ Analyze the configuration differences between the three agents and demonstrate u
 
 #### 1. Why does the cost optimizer use Haiku instead of Sonnet?
 
-Add your answer here...
+
+The cost-optimizer agent uses Haiku instead of Sonnet for two main reasons:
+
+Cost Efficiency: Haiku is significantly cheaper and faster than Sonnet. Since the agent's job is simply to scan text and look for cost-saving patterns (a relatively straightforward task), using a premium model like Sonnet would be overkill and expensive.
+
+Task Complexity: Finding unused resources or matching text pattern optimizations doesn't require complex reasoning or advanced logic. Haiku's speed and capability are perfectly suited for basic file scanning, making it the most cost-effective tool for a cost-optimization role.
 
 ---
 
 #### 2. Why does the security auditor NOT have Write in its tools list?
 
-Add your answer here...
 
+The security-auditor does NOT have Write privileges because of The Principle of Least Privilege: an auditor only needs to analyze and scan code, not modify it.
+
+By keeping it read-only, you ensure Separation of Duties like flagging issues , fixing them 
+and drastically reduce the Blast Radius—preventing the agent from accidentally deleting or altering your infrastructure files if something goes wrong.
 ---
 
 #### 3. Why does the tf-writer use `inherit` instead of a specific model?
 
-Add your answer here...
+The tf-writer agent uses inherit so that it automatically adopts whichever model the parent agent (or the user) is currently running.
+
+Here is why this is beneficial:
+
+Flexibility: Instead of being locked into a single model, tf-writer dynamically scales. If you are running a cheap model for quick tasks, it stays cheap. If you switch to a powerful model (like Sonnet) for complex infrastructure architecture, tf-writer automatically upgrades to that same model to write higher-quality code.
+
+Consistency: It ensures that the agent analyzing your request and the agent writing the code are on the exact same page, utilizing the same underlying intelligence level.
 
 ---
 
@@ -56,12 +71,14 @@ Add your answer here...
 
 Add your screenshot here.
 
+![alt text](screenshots\security-auditor.png)
 ---
 
 #### Screenshot 3 — `cost-optimizer.md` frontmatter showing the model and tools configuration
 
 Add your screenshot here.
 
+![alt text](screenshots\cost-optimiser.png)
 ---
 
 # Task 3 — Run the Security Auditor
@@ -76,12 +93,14 @@ Trigger the security auditor agent and analyze the generated security report for
 
 Add your screenshot here.
 
+![alt text](screenshots\delegation-security.png)
 ---
 
 #### Screenshot 5 — Security audit report output
 
 Add your screenshot here.
 
+![alt text](screenshots\audit-report-output.png)
 ---
 
 # Task 4 — Run the Cost Optimizer
@@ -95,6 +114,10 @@ Trigger the cost optimizer agent and review the generated cost optimization repo
 #### Screenshot 6 — The full cost optimization report
 
 Add your screenshot here.
+
+![alt text](screenshots\coast-optimisation-1.png)
+
+![alt text](screenshots\coast-optimisation-2.png)
 
 ---
 
@@ -110,7 +133,9 @@ Add your screenshot here.
 
 Paste your forked repository URL here:
 
-`__________________________`
+https://github.com/siraa/Ultimate-Agentic-DevOps-with-Claude-Code
+
+
 
 ---
 

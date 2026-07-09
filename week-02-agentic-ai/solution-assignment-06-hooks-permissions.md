@@ -22,6 +22,8 @@ Create the `.claude` directory structure required for team-level Claude Code con
 
 Add your screenshot here.
 
+![alt text](screenshots\files-hooks.png)
+
 ---
 
 # Task 2 — Create the UserPromptSubmit Hook Script
@@ -36,6 +38,7 @@ Create a hook that checks user prompts before Claude processes them and blocks r
 
 Add your screenshot here.
 
+![alt text](screenshots\hook-promp-user.png)
 ---
 
 # Task 3 — Create the PreToolUse Hook Script
@@ -50,6 +53,7 @@ Create a hook that runs before Claude executes Bash commands and blocks dangerou
 
 Add your screenshot here.
 
+![alt text](screenshots\hook-pre-tool.png)
 ---
 
 # Task 4 — Create the PostToolUse Hook Script
@@ -64,6 +68,7 @@ Create a hook that runs after Claude executes a Bash command and logs selected T
 
 Add your screenshot here.
 
+![alt text](screenshots\hook-post-tool.png)
 ---
 
 # Task 5 — Configure settings.json to Connect Hook Scripts
@@ -78,6 +83,7 @@ Configure Claude Code permissions and connect the hook scripts created in the pr
 
 Add your screenshot here.
 
+![alt text](screenshots\hook-setting.png)
 ---
 
 # Task 6 — Test the UserPromptSubmit Hook
@@ -90,6 +96,11 @@ Prove the prompt-level hook works by typing a destructive prompt and verifying i
 
 #### Screenshot 6 — UserPromptSubmit hook blocking the destructive prompt
 
+
+
+![alt text](screenshots\isdeleted-file-terraform-hook.png)
+
+![alt text](screenshots\delete-blocked.png)
 ---
 
 # Task 7 — Test the PreToolUse Hook
@@ -102,6 +113,7 @@ Prove the tool-level hook works by asking Claude to execute a dangerous Bash com
 
 #### Screenshot 7 — PreToolUse hook blocking terraform destroy
 
+![alt text](screenshots\destroy-terraform-2.png)
 ---
 
 # Task 8 — Test the PostToolUse Logging Hook
@@ -114,7 +126,11 @@ Prove the logging hook runs after a successful command execution and records Ter
 
 #### Screenshot 8 — Claude running terraform validate successfully
 
+![alt text](screenshots\terraform-validate-hook.png)
+
 #### Screenshot 9 — `.claude/deploy.log` showing the logged command
+
+![alt text](screenshots\deploy-log-created.png)
 
 ---
 
