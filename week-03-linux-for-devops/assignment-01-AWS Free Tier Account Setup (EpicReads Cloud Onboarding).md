@@ -22,17 +22,53 @@ Demonstrate understanding of AWS basics and Free Tier usage by answering the fol
 
 Write your answer here.
 
+An AWS account is our secure sandbox on Amazon's cloud platform, giving us on-demand access to virtual servers, storage, databases, and advanced networking tools.
+At this stage in our DevOps journey, it is an absolute necessity for this reasons:
+
+Moving from Theory to Production: It is the live environment where we code takes form. Without it, we cannot execute terraform apply to deploy real S3 buckets, CloudFront distributions, or infrastructure.
+
+Testing Real Security and IAM Roles: 
+It allows us to practice cloud governance by 
+configuring real Identity and Access Management (IAM) policies, ensuring your pipelines or autonomous agents operate strictly under the principle of least privilege.
+
+Mastering Real-World Troubleshooting: It forces us to deal with actual cloud networking realities. We need it to validate that your inbound rules are set up correctly, the right ports are open, and our deployment can communicate with the outside world.
+
+Why you need AWS:
+By hosting your Nginx server on AWS, you get access to tools like Amazon CloudWatch. You can practice setting up automated alerts that ping you if the server crashes, if CPU usage spikes, or if malicious traffic hits your environment. 
+In short, an AWS account is where our static configuration files become a live, functional ecosystem.
+
 ---
 
 #### Question 2 — What is AWS Free Tier, and how long does it last?
 
 Write your answer here.
 
+The AWS Free Tier lets you use cloud services for free up to certain monthly limits.
+It has three types of timelines:
+
+12 Months Free: Expired exactly 1 year after you create your account (e.g., covers EC2 t2.micro and 5 GB of S3 storage).
+
+Always Free: Never expires, available indefinitely (e.g., covers AWS Lambda and DynamoDB limits).
+
+Short-Term Trials: Lasts only 30 to 90 days depending on the specific service.
+
 ---
 
 #### Question 3 — Name three AWS Free Tier services and their free usage limits.
 
 Write your answer here.
+1. Amazon EC2 (Elastic Compute Cloud)
+Offer Type: 12 Months Free
+Limit: 750 hours per month
+Scope: Applies to t2.micro or t3.micro instances (dependent on region) for Linux or Windows configurations. Hours accumulate across all concurrent running instances.
+2. Amazon S3 (Simple Storage Service)
+Offer Type: 12 Months Free
+Limit: 5 GB Standard Storage
+Scope: Includes 20,000 GET requests and 2,000 PUT requests per month.
+3. AWS Lambda
+Offer Type: Always Free
+Limit: 1 million requests per month
+Scope: Includes 400,000 GB-seconds of compute time per month, determined by function memory allocation and execution duration.
 
 ---
 
@@ -58,6 +94,7 @@ Confirm that your AWS account setup is complete by navigating to the Account sec
 
 Add your screenshot here.
 
+![alt text](screenshots\AWS-Account-page.png)
 ---
 
 # Submission Instructions
