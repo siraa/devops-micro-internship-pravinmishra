@@ -20,25 +20,25 @@ Verify that the deployed React application is reachable from the browser and con
 
 #### Screenshot 1 — Browser showing the React app with your Full Name visible on the UI
 
-Add your screenshot here.
+![alt text](screenshots\system-ctl-week3.png)
 
 ---
 
 #### Screenshot 2 — Output of `ip a`
 
-Add your screenshot here.
+![alt text](screenshots\system-ctl-week3.png)
 
 ---
 
 #### Screenshot 3 — Output of `sudo ss -tulpen`
 
-Add your screenshot here.
+![alt text](screenshots\system-ctl-week3.png)
 
 ---
 
 #### Screenshot 4 — Output of `sudo ufw status`
 
-Add your screenshot here.
+![alt text](screenshots\system-ctl-week3.png)
 
 ---
 
@@ -134,7 +134,7 @@ Add your screenshot here.
 
 #### Screenshot 3 — Output of `sudo ss -lptn '( sport = :80 )'`
 
-Add your screenshot here.
+![alt text](screenshots\system-ctl-week3.png)
 
 ---
 
@@ -173,19 +173,19 @@ Verify real traffic flow and analyze logs to understand system behavior and erro
 
 #### Screenshot 1 — Output of `sudo tail -n 30 /var/log/nginx/access.log`
 
-Add your screenshot here.
+![alt text](screenshots\system-ctl-week3.png)
 
 ---
 
 #### Screenshot 2 — Output of `sudo tail -n 30 /var/log/nginx/error.log`
 
-Add your screenshot here.
+![alt text](screenshots\system-ctl-week3.png)
 
 ---
 
 #### Screenshot 3 — Output of `sudo journalctl -u nginx --no-pager -n 50`
 
-Add your screenshot here.
+![alt text](screenshots\system-ctl-week3.png)
 
 ---
 
@@ -236,25 +236,25 @@ Assess server capacity and detect potential performance or failure risks.
 
 #### Screenshot 1 — Output of `uptime`
 
-Add your screenshot here.
+![alt text](screenshots\system-ctl-week3.png)
 
 ---
 
 #### Screenshot 2 — Output of `free -h`
 
-Add your screenshot here.
+![alt text](screenshots\system-ctl-week3.png)
 
 ---
 
 #### Screenshot 3 — Output of `df -h`
 
-Add your screenshot here.
+![alt text](screenshots\system-ctl-week3.png)
 
 ---
 
 #### Screenshot 4 — Output of `sudo du -sh /var/* | sort -h`
 
-Add your screenshot here.
+![alt text](screenshots\system-ctl-week3.png)
 
 ---
 
@@ -264,7 +264,6 @@ Answer the following in your own words:
 
 **1. Which resource looks most critical right now? (CPU/load, memory, or disk) Explain why.**
 
-Write your answer here.
 
 In our current AWS EC2 Ubuntu deployment, Memory (RAM) is identified as the most critical resource.
 
@@ -275,7 +274,6 @@ also CPU / Load Average: uptime (To inspect the system load averages over 1, 5, 
 
 **2. What happens if disk becomes 100% full in a production server?**
 
-Write your answer here.
 
 When a production server's root disk (/) reaches 100% utilization, the system loses its ability to perform write operations (write()). This leads to immediate operational instability, service failures, and data risks across multiple layers of the application stack.
 ---
@@ -290,19 +288,19 @@ Ensure the correct React build is deployed and Nginx is serving it properly.
 
 #### Screenshot 1 — Output of `ls -lah /var/www/html | head -n 20`
 
-Add your screenshot here.
+![alt text](screenshots\system-ctl-week3.png)
 
 ---
 
 #### Screenshot 2 — Output of ` `
 
-Add your screenshot here.
+![alt text](screenshots\system-ctl-week3.png)
 
 ---
 
 #### Screenshot 3 — Output of `grep -n "try_files" /etc/nginx/sites-available/default`
 
-Add your screenshot here.
+![alt text](screenshots\system-ctl-week3.png)
 
 ---
 
@@ -380,13 +378,14 @@ Simulate missing deployment content and recover the application safely.
 
 #### Screenshot 1 — Output of `curl -I http://<public-ip>` showing failure (non-200 response)
 
-Add your screenshot here.
+
+![alt text](screenshots\system-ctl-week3.png)
 
 ---
 
 #### Screenshot 2 — Output of `curl -I http://<public-ip>` confirming recovery (200 OK)
 
-Add your screenshot here.
+![alt text](screenshots\system-ctl-week3.png)
 
 ---
 
@@ -478,13 +477,14 @@ Infrastructure as Code (IaC) Teardown: In CI/CD pipelines, environments are spun
 
 Paste your LinkedIn post URL here:
 
-`__________________________`
+https://www.linkedin.com/posts/taysir-ouaslati-9b6527a3_defensive-devops-hardening-infrastructure-share-7484202987863736320-Jy6W/?utm_source=share&utm_medium=member_desktop&rcm=ACoAABX4AtoB0tpceeC8Jnqozhzdi2ViZ02bFHk
 
 ---
 
 #### Screenshot — Published LinkedIn post
 
-Add your screenshot here.
+
+![alt text](screenshots\post-ass3.png)
 
 ---
 
