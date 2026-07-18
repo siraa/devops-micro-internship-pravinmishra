@@ -22,6 +22,7 @@ Verify the Ubuntu VM and Nginx are ready for deployment.
 
 Add your screenshot here.
 
+![alt text](screenshots\sc0-T0-ass4-week3.png)
 ---
 
 # Task 1 — Get the Website Source Code
@@ -36,6 +37,7 @@ Download and extract the portfolio website template.
 
 Add your screenshot here.
 
+![alt text](screenshots\sc1-T1-ass4-ls-la-week3.png)
 ---
 
 # Task 2 — Add Ownership Proof (Anti-Copy Change)
@@ -48,7 +50,7 @@ Update the website footer with your deployment details.
 
 #### Screenshot 2 — Nano editor open with the updated footer showing your Full Name, Group, Week, and Date
 
-Add your screenshot here.
+![alt text](screenshots\sc1-T1-ass4-ls-la-week3.png)
 
 ---
 
@@ -62,13 +64,13 @@ Deploy the portfolio website to the Nginx web root.
 
 #### Screenshot 3 — Output of `sudo nginx -t` showing configuration test successful
 
-Add your screenshot here.
+![alt text](screenshots\sc1-T1-ass4-ls-la-week3.png)
 
 ---
 
 #### Screenshot 4 — Output of `ls /var/www/html` showing deployed website files
 
-Add your screenshot here.
+![alt text](screenshots\sc1-T1-ass4-ls-la-week3.png)
 
 ---
 
@@ -82,13 +84,13 @@ Verify the deployed website is publicly accessible and the footer contains your 
 
 #### Screenshot 5 — Output of `curl ifconfig.me` showing the server's public IP address
 
-Add your screenshot here.
+![alt text](screenshots\sc1-T1-ass4-ls-la-week3.png)
 
 ---
 
 #### Screenshot 6 — Browser showing the live website with your Full Name and deployment details in the footer
 
-Add your screenshot here.
+![alt text](screenshots\sc1-T1-ass4-ls-la-week3.png)
 
 ---
 
@@ -102,13 +104,13 @@ Verify the deployed website and Nginx service are healthy.
 
 #### Screenshot 7 — Output of `systemctl is-enabled nginx`
 
-Add your screenshot here.
+![alt text](screenshots\sc1-T1-ass4-ls-la-week3.png)
 
 ---
 
 #### Screenshot 8 — Output of `curl -I http://localhost` showing 200 OK
 
-Add your screenshot here.
+![alt text](screenshots\sc1-T1-ass4-ls-la-week3.png)
 
 ---
 
@@ -120,13 +122,13 @@ Add your screenshot here.
 
 Paste your LinkedIn post URL here:
 
-`__________________________`
+https://www.linkedin.com/posts/taysir-ouaslati-9b6527a3_my-react-application-is-officially-live-on-share-7484152217126506496-cf8w/?utm_source=share&utm_medium=member_desktop&rcm=ACoAABX4AtoB0tpceeC8Jnqozhzdi2ViZ02bFHk
 
 ---
 
 #### Screenshot — Published LinkedIn post showing the live website with your Full Name in the footer
 
-Add your screenshot here.
+![alt text](screenshots\Ass4-post.png)
 
 ---
 
