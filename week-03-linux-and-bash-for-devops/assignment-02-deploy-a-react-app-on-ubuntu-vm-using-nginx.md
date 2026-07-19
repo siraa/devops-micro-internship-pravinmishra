@@ -20,7 +20,10 @@ Install Node.js and npm on the Ubuntu VM and verify the installation.
 
 #### Screenshot 1 — Output of `node -v && npm -v` showing installed versions
 
-![alt text](screenshots\sc19-T8-ass6-week3.png)
+![alt text](screenshots\npm-version-ubuntu.png)
+
+
+![alt text](screenshots\node-version-ubuntu.png)
 
 ---
 
@@ -63,7 +66,7 @@ Update `App.js` with your full name and the current date.
 
 #### Screenshot 4 — `nano App.js` open showing your full name and date filled in
 
-![alt text](screenshots\system-ctl-week3.png)
+![alt text](screenshots\nano-name.png)
 
 ---
 
@@ -78,7 +81,9 @@ Install dependencies and generate the production build.
 #### Screenshot 5 — Output of `ls` inside `my-react-app` showing the `build/` folder generated
 
 
-![alt text](screenshots\system-ctl-week3.png)
+![alt text](screenshots\ls-npm.png)
+
+![alt text](screenshots\nginx-root.png)
 
 ---
 
@@ -107,12 +112,12 @@ Apply Nginx configuration for React routing and confirm the service is active.
 #### Screenshot 7 — Output of `systemctl is-active nginx` showing `active`
 
 
-![alt text](screenshots\system-ctl-week3.png)
+![alt text](screenshots\service is-active..png)
 ---
 
 #### Screenshot 8 — Output of `cat /etc/nginx/sites-available/default` showing the Nginx config
 
-![alt text](screenshots\sc9-week3.png)
+![alt text](screenshots\confirmation-cat-active.png)
 
 ---
 

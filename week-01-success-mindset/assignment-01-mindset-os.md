@@ -157,9 +157,8 @@ Today, my portfolio, GitHub activity, certifications, and projects reflect real,
 
 ### Public Link
 
-Paste your link here:
 
-`https://www.linkedin.com/posts/taysir-ouaslati-9b6527a3_my-version-20-over-the-past-few-years-share-7478367073870659584-De7O/?utm_source=share&utm_medium=member_desktop&rcm=ACoAABX4AtoB0tpceeC8Jnqozhzdi2ViZ02bFHk`
+https://www.linkedin.com/posts/taysir-ouaslati-9b6527a3_my-version-20-over-the-past-few-years-share-7478367073870659584-De7O/?utm_source=share&utm_medium=member_desktop&rcm=ACoAABX4AtoB0tpceeC8Jnqozhzdi2ViZ02bFHk
 
 ---
 
@@ -389,7 +388,7 @@ I will write down one main goal, and at the end, I will spend 10 minutes reviewi
 
 Paste your LinkedIn post link here:
 
-`__https://www.linkedin.com/posts/taysir-ouaslati-9b6527a3_to-stay-consistent-and-continue-improving-share-7478373543274004481-qg-O/?utm_source=share&utm_medium=member_desktop&rcm=ACoAABX4AtoB0tpceeC8Jnqozhzdi2ViZ02bFHk________________________`
+__https://www.linkedin.com/posts/taysir-ouaslati-9b6527a3_to-stay-consistent-and-continue-improving-share-7478373543274004481-qg-O/?utm_source=share&utm_medium=member_desktop&rcm=ACoAABX4AtoB0tpceeC8Jnqozhzdi2ViZ02bFHk________________________
 
 ---
 

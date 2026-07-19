@@ -20,7 +20,7 @@ Verify the Ubuntu VM and Nginx are ready for deployment.
 
 #### Screenshot 0 — Output of `sudo systemctl status nginx --no-pager` showing Active (running)
 
-Add your screenshot here.
+
 
 ![alt text](screenshots\sc0-T0-ass4-week3.png)
 ---
@@ -35,7 +35,7 @@ Download and extract the portfolio website template.
 
 #### Screenshot 1 — Output of `ls -la` showing the extracted project folder
 
-Add your screenshot here.
+
 
 ![alt text](screenshots\sc1-T1-ass4-ls-la-week3.png)
 ---

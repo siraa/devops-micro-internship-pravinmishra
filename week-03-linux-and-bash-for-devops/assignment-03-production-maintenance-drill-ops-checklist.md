@@ -48,7 +48,6 @@ Answer the following in your own words:
 
 **1. What proves Nginx is listening on 0.0.0.0:80?**
 
-Write your answer here.
 
 To verify and prove that the Nginx web server is actively listening on port 80 across all IPv4 interfaces (0.0.0.0), we can analyze the network socket state using the ss command: Output of `sudo ufw status`
 The Binding IP (0.0.0.0): The local address is bound to 0.0.0.0, which represents the IPv4 wildcard address. This proves that Nginx is not restricted to the local loopback (127.0.0.1) but is actively listening on all available network interfaces of the EC2 instance (including the private IP mapped to our public AWS IP).
@@ -95,7 +94,7 @@ Bash
 
 **3. Did you find any unexpected open ports? Explain briefly.**
 
-Write your answer here.
+
 
 No unexpected open ports were found.
 
@@ -120,14 +119,14 @@ Verify that Nginx is properly installed, running, enabled at boot, and safely co
 
 #### Screenshot 1 — Output of `systemctl status nginx --no-pager`
 
-Add your screenshot here.
+
 
 ![alt text](screenshots\system-ctl-week3.png)
 ---
 
 #### Screenshot 2 — Output of `sudo nginx -t`
 
-Add your screenshot here.
+
 
 ![alt text](screenshots\sc2-T2-week3.png)
 ---
@@ -144,8 +143,6 @@ Answer the following in your own words:
 
 **1. What happens if Nginx fails to restart in production?**
 
-Write your answer here.
-
 If Nginx fails to restart in a production environment, the operational and technical impact depends entirely on the deployment strategy used to apply the configuration changes:
 
 1. The Technical Impact: Outage vs. Safe Fallback
@@ -155,7 +152,7 @@ This command immediately terminates all running Nginx master and worker processe
 
 **2. What's your basic rollback plan?**
 
-Write your answer here.
+
 
 Our basic rollback plan relies on pre-emptive backups, declarative configuration validation, and zero-downtime reloads. Instead of scrambling to rewrite files during an incident, we instantly restore a pre-validated snapshot of the configuration.
 Rule of the Timestamped Backup: Never edit a configuration file directly.
@@ -185,7 +182,7 @@ Verify real traffic flow and analyze logs to understand system behavior and erro
 
 #### Screenshot 3 — Output of `sudo journalctl -u nginx --no-pager -n 50`
 
-![alt text](screenshots\system-ctl-week3.png)
+![alt text](screenshots\sc3-T3-week3.png)
 
 ---
 
@@ -198,8 +195,6 @@ Answer the following in your own words:
 - If yes, mention 1–2 example error lines from the logs and explain what each one means in simple terms.
 - If no, explain what it means if the error log is empty or shows no recent errors during your check.
 
-Write your answer here.
-
 No, there were no active errors in the log.
 
 During our diagnostic check of /var/log/nginx/error.log, the log returned empty (or showed only historical start-up notices with no [error] or [crit] levels).
@@ -211,7 +206,6 @@ Healthy Runtime State: This proves Nginx is operating in a healthy state, succes
 
 **2. If there were no errors, what does that indicate about the system?**
 
-Write your answer here.
 
 The absence of errors in the /var/log/nginx/error.log file indicates that the web server and the host system are operating in a perfectly healthy, stable, and highly secure baseline state.
 An empty log confirms there are no server-side upstream failures, gateway bottlenecks, or socket communication issues. The server is delivering static assets efficiently without dropouts, meaning all client connections are resolving cleanly (which are logged as successful traffic in access.log rather than error.log).
@@ -219,7 +213,7 @@ An empty log confirms there are no server-side upstream failures, gateway bottle
 
 **3. Based on the access logs, were your curl requests visible in the log entries? What does that prove about traffic flow?**
 
-Write your answer here.
+
 Yes, the curl requests were fully visible in the Nginx access log entries.
 
 1. The Evidence: Analyzing a curl Log Entry
@@ -326,19 +320,19 @@ Simulate a real-world Nginx misconfiguration and recover the service safely.
 
 #### Screenshot 1 — Output of `sudo nginx -t` showing the syntax error (broken config)
 
-Add your screenshot here.
+![alt text](screenshots\system-ctl-week3.png)
 
 ---
 
 #### Screenshot 2 — Output of `sudo nginx -t` showing syntax ok (fixed config)
 
-Add your screenshot here.
 
+![alt text](screenshots\system-ctl-week3.png)
 ---
 
 #### Screenshot 3 — Output of `curl -I http://<public-ip>` confirming recovery (200 OK)
 
-Add your screenshot here.
+![alt text](screenshots\system-ctl-week3.png)
 
 ---
 
@@ -395,7 +389,7 @@ Answer the following in your own words:
 
 **1. What caused the application to break in this scenario?**
 
-Write your answer here
+
 
 The application broke because of a Missing Static Asset Dependency.
 
@@ -404,14 +398,13 @@ Specifically, Nginx could no longer resolve its configured Document Root (root /
 
 **2. How did you fix the issue and restore the application?**
 
-Write your answer here.
 
 The application was restored by executing a Disaster Recovery Rollback. This involved deleting the empty placeholder directory, restoring the archived original build files from the backup directory back to /var/www/html, and restarting Nginx to clear system file descriptor caches.
 ---
 
 **3. What steps would you take to prevent this kind of issue in real production systems?**
 
-Write your answer here.
+
 
 In a professional production environment, manually running commands on a live virtual machine (like using nano or executing raw mv and rm commands) is highly discouraged. It introduces significant human error, configurations drift over time, and a single typo can lead to costly downtime
 ---
@@ -428,28 +421,28 @@ Answer the following in your own words:
 
 **1. Why is SSH key-based authentication more secure than sharing passwords?**
 
-Write your answer here.
+
 
 SSH key-based authentication is fundamentally more secure because it replaces a shared, guessable secret (a password) with asymmetric cryptography. This mathematical design eliminates the threat of brute-force attacks, prevents credentials from ever being sent across the network, and ensures that compromise of the server does not expose the client's private secret.
 ---
 
 **2. Why should only required ports be open on a production server?**
 
-Write your answer here.
+
 
 Limiting open ports is the fundamental implementation of the Principle of Least Privilege at the network level. Opening only required ports minimizes the server's attack surface, ensuring that malicious actors cannot discover, interact with, or exploit backend services that were never meant to be publicly accessible.
 ---
 
 **3. Why is it important for Nginx to be enabled on boot?**
 
-Write your answer here.
+
 
 Enabling Nginx on boot is critical for achieving high availability (HA) and automated disaster recovery. It ensures that if the underlying virtual machine restarts—due to an unexpected crash, hardware failure, cloud hypervisor maintenance, or a planned system update—the web server automatically starts serving traffic again without requiring manual human intervention.
 ---
 
 **4. What are the risks of sharing secrets, keys, or credentials publicly?**
 
-Write your answer here.
+
 
 Sharing secrets, keys, or credentials publicly (such as committing them to a public GitHub repository) represents one of the most critical security failures in modern cloud computing.
 
@@ -458,7 +451,7 @@ Because modern cloud environments are fully automated, malicious actors do not s
 
 **5. Why should cloud resources be stopped or terminated when they are no longer needed?**
 
-Write your answer here.
+
 
 To prevent engineers from forgetting to clean up, modern DevOps organizations implement automation:
 
@@ -475,7 +468,7 @@ Infrastructure as Code (IaC) Teardown: In CI/CD pipelines, environments are spun
 
 #### LinkedIn Post URL
 
-Paste your LinkedIn post URL here:
+
 
 https://www.linkedin.com/posts/taysir-ouaslati-9b6527a3_defensive-devops-hardening-infrastructure-share-7484202987863736320-Jy6W/?utm_source=share&utm_medium=member_desktop&rcm=ACoAABX4AtoB0tpceeC8Jnqozhzdi2ViZ02bFHk
 

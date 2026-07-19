@@ -46,7 +46,7 @@ You can publish your blog on:
 
 #### Screenshot 1 — Blog published and visible
 
-Add your screenshot here.
+
 
 ![alt text](screenshots\medium1.png)
 
@@ -95,7 +95,7 @@ Your post must include:
 
 #### Screenshot 2 — LinkedIn post published
 
-Add your screenshot here.
+
 ![alt text](screenshots\linkedin-post-1.png)
 
 ![alt text](screenshots\linked-2.png)
