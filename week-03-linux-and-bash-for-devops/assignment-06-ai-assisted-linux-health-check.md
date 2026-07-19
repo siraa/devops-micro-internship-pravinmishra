@@ -529,7 +529,11 @@ Gather -> Analyze -> Human Act -> Verify
 
 Paste your LinkedIn post URL here:
 
+<<<<<<< HEAD
 https://www.linkedin.com/posts/taysir-ouaslati-9b6527a3_managing-incidents-the-devops-way-ai-diagnostics-share-7484149796430217216-D5Dj/?utm_source=share&utm_medium=member_desktop&rcm=ACoAABX4AtoB0tpceeC8Jnqozhzdi2ViZ02bFHk
+=======
+`Add your URL here`
+>>>>>>> upstream/main
 
 ---
 
@@ -543,7 +547,11 @@ https://www.linkedin.com/posts/taysir-ouaslati-9b6527a3_managing-incidents-the-d
 
 Paste the URL of your GitHub folder or repository containing the assignment files here:
 
+<<<<<<< HEAD
 https://github.com/siraa/devops-micro-internship-pravinmishra/tree/main/week-03-linux-for-devops
+=======
+`Add your URL here`
+>>>>>>> upstream/main
 
 ---
 

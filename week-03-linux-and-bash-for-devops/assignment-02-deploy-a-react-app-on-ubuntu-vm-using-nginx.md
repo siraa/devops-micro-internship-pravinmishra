@@ -149,7 +149,11 @@ Verify the React application is publicly accessible via the server's public IP.
 
 Paste your LinkedIn post URL here:
 
+<<<<<<< HEAD
 https://www.linkedin.com/posts/taysir-ouaslati-9b6527a3_deployed-to-the-cloud-epicreads-is-officially-share-7484180826067488769--Ara/?utm_source=share&utm_medium=member_desktop&rcm=ACoAABX4AtoB0tpceeC8Jnqozhzdi2ViZ02bFHk
+=======
+`Add your URL here`
+>>>>>>> upstream/main
 
 ---
 

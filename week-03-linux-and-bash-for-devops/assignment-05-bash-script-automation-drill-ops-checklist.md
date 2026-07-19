@@ -525,8 +525,12 @@ It uses if-else conditionals with -d and -f to check the required directory and 
 
 Paste your LinkedIn post URL here:
 
+<<<<<<< HEAD
 https://www.linkedin.com/posts/taysir-ouaslati-9b6527a3_moving-from-manual-commands-to-bulletproof-activity-7483642510712586241-5EQf?utm_source=share&utm_medium=member_desktop&rcm=ACoAABX4AtoB0tpceeC8Jnqozhzdi2ViZ02bFHk
 
+=======
+`Add your URL here`
+>>>>>>> upstream/main
 
 ---
 

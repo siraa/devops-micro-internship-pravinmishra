@@ -95,14 +95,22 @@ Initialize Terraform and execute the `/tf-plan` skill to observe plan execution 
 
 Paste your forked repository URL here:
 
+<<<<<<< HEAD
 https://github.com/siraa/Ultimate-Agentic-DevOps-with-Claude-Code
+=======
+`Add your URL here`
+>>>>>>> upstream/main
 
 ## LinkedIn post URL
 
 Paste your forked repository URL here:
 
+<<<<<<< HEAD
 https://github.com/siraa/Ultimate-Agentic-DevOps-with-Claude-Code
 
+=======
+`Add your URL here`
+>>>>>>> upstream/main
 ---
 
 # Completion Checklist

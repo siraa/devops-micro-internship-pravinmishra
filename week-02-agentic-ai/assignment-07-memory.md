@@ -106,7 +106,11 @@ Run three tests that prove Claude remembers what you told it — without you say
 
 Paste your Linkedin post link here:
 
+<<<<<<< HEAD
 https://www.linkedin.com/posts/taysir-ouaslati-9b6527a3_devops-agenticai-claudecode-share-7481100238120865792-ZLJA/?utm_source=share&utm_medium=member_desktop&rcm=ACoAABX4AtoB0tpceeC8Jnqozhzdi2ViZ02bFHk
+=======
+`Add your URL here`
+>>>>>>> upstream/main
 
 ---
 
@@ -114,7 +118,11 @@ https://www.linkedin.com/posts/taysir-ouaslati-9b6527a3_devops-agenticai-claudec
 
 Paste your forked repository URL here:
 
+<<<<<<< HEAD
 https://github.com/siraa/Ultimate-Agentic-DevOps-with-Claude-Code
+=======
+`Add your URL here`
+>>>>>>> upstream/main
 
 ---
 

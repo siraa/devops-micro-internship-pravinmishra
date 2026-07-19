@@ -469,8 +469,12 @@ Infrastructure as Code (IaC) Teardown: In CI/CD pipelines, environments are spun
 #### LinkedIn Post URL
 
 
+<<<<<<< HEAD
 
 https://www.linkedin.com/posts/taysir-ouaslati-9b6527a3_defensive-devops-hardening-infrastructure-share-7484202987863736320-Jy6W/?utm_source=share&utm_medium=member_desktop&rcm=ACoAABX4AtoB0tpceeC8Jnqozhzdi2ViZ02bFHk
+=======
+`Add your URL here`
+>>>>>>> upstream/main
 
 ---
 

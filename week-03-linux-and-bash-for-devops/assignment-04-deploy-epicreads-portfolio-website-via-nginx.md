@@ -122,7 +122,11 @@ Verify the deployed website and Nginx service are healthy.
 
 Paste your LinkedIn post URL here:
 
+<<<<<<< HEAD
 https://www.linkedin.com/posts/taysir-ouaslati-9b6527a3_my-react-application-is-officially-live-on-share-7484152217126506496-cf8w/?utm_source=share&utm_medium=member_desktop&rcm=ACoAABX4AtoB0tpceeC8Jnqozhzdi2ViZ02bFHk
+=======
+`Add your URL here`
+>>>>>>> upstream/main
 
 ---
 
