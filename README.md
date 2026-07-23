@@ -130,13 +130,14 @@ Week 01 → Success Mindset
 
 | Week | Topic | Status | Assignment | LinkedIn Post | Blog Post |
 |------|-------|--------|------------|---------------|-----------|
-| 00 | Internet & Networking Basics | ✅ Completed | ✅ Solved | _https://www.linkedin.com/posts/taysir-ouaslati-9b6527a3_to-stay-consistent-and-continue-improving-share-7478373543274004481-qg-O/?utm_source=share&utm_medium=member_desktop&rcm=ACoAABX4AtoB0tpceeC8Jnqozhzdi2ViZ02bFHk_| https://www.linkedin.com/posts/taysir-ouaslati-9b6527a3_i-recently-completed-the-first-5-tasks-of-activity-7461310573104803840-q2WB?utm_source=share&utm_medium=member_desktop&rcm=ACoAABX4AtoB0tpceeC8Jnqozhzdi2ViZ02bFHk |
-| 01 | Success Mindset | ✅ Completed | ✅ Solved  |https://www.linkedin.com/posts/taysir-ouaslati-9b6527a3_my-version-20-over-the-past-few-years-share-7478367073870659584-De7O/?utm_source=share&utm_medium=member_desktop&rcm=ACoAABX4AtoB0tpceeC8Jnqozhzdi2ViZ02bFHk |https://medium.com/@westatou/why-consistency-matters-more-than-talent-in-learning-devops-d40073801edc |
-<<<<<<< HEAD
-| 02 | Agentic AI with Claude Code |  ✅ Completed| ✅ Solved |https://www.linkedin.com/posts/taysir-ouaslati-9b6527a3_my-version-20-over-the-past-few-years-share-7478367073870659584-De7O/?utm_source=share&utm_medium=member_desktop&rcm=ACoAABX4AtoB0tpceeC8Jnqozhzdi2ViZ02bFHk| https://medium.com/@westatou/why-consistency-matters-more-than-talent-in-learning-devops-d40073801edc |
-| 03 | Linux for DevOps | ✅ Completed |  ✅ Solved  | https://www.linkedin.com/posts/taysir-ouaslati-9b6527a3_managing-incidents-the-devops-way-ai-diagnostics-share-7484149796430217216-D5Dj/?utm_source=share&utm_medium=member_desktop&rcm=ACoAABX4AtoB0tpceeC8Jnqozhzdi2ViZ02bFHk| https://www.linkedin.com/posts/taysir-ouaslati-9b6527a3_managing-incidents-the-devops-way-ai-diagnostics-share-7484149796430217216-D5Dj/?utm_source=share&utm_medium=member_desktop&rcm=ACoAABX4AtoB0tpceeC8Jnqozhzdi2ViZ02bFHk |                                                                                                  
+| 00 | Internet & Networking Basics | ✅ Completed | ✅ Solved | _https://www.linkedin.com/posts/taysir-ouaslati-9b6527a3_to-stay-consistent-and-continue-improving-share-7478373543274004481-qg-O/?utm_source=share&utm_medium=member_desktop&rcm=ACoAABX4AtoB0tpceeC8Jnqozhzdi2ViZ02bFHk_| https://www.linkedin.com/posts/taysir-ouaslati-9b6527a3_i-recently-completed-the-first-5-tasks-of-activity-7461310573104803840-q2WB?utm_source=share&utm_medium=member_desktop&rcm=ACoAABX4AtoB0tpceeC8Jnqozhzdi2ViZ02bFHk        |
+| 01 | Success Mindset | ✅ Completed | ✅ Solved  |   https://www.linkedin.com/posts/taysir-ouaslati-9b6527a3_my-version-20-over-the-past-few-years-share-7478367073870659584-De7O/?utm_source=share&utm_medium=member_desktop&rcm=ACoAABX4AtoB0tpceeC8Jnqozhzdi2ViZ02bFHk   |  https://medium.com/@westatou/why-consistency-matters-more-than-talent-in-learning-devops-d40073801edc    |    
+
+| 02 | Agentic AI with Claude Code    |  ✅ Completed  | ✅ Solved |        https://www.linkedin.com/posts/taysir-ouaslati-9b6527a3_my-version-20-over-the-past-few-years-share-7478367073870659584-De7O/?utm_source=share&utm_medium=member_desktop&rcm=ACoAABX4AtoB0tpceeC8Jnqozhzdi2ViZ02bFHk      |                                                               https://medium.com/@westatou/why-consistency-matters-more-than-talent-in-learning-devops-d40073801edc  |
+
+| 03 | Linux for DevOps | ✅ Completed |  ✅ Solved  |  https://www.linkedin.com/posts/taysir-ouaslati-9b6527a3_managing-incidents-the-devops-way-ai-diagnostics-share-7484149796430217216-D5Dj/?utm_source=share&utm_medium=member_desktop&rcm=ACoAABX4AtoB0tpceeC8Jnqozhzdi2ViZ02bFHk     | https://www.linkedin.com/posts/taysir-ouaslati-9b6527a3_managing-incidents-the-devops-way-ai-diagnostics-share-7484149796430217216-D5Dj/?utm_source=share&utm_medium=member_desktop&rcm=ACoAABX4AtoB0tpceeC8Jnqozhzdi2ViZ02bFHk   |                                                                                                  
 | 04 | Bash Scripting | ✅ Completed | ✅ Solved  | https://www.linkedin.com/posts/taysir-ouaslati-9b6527a3_moving-from-manual-commands-to-bulletproof-activity-7483642510712586241-5EQf?utm_source=share&utm_medium=member_desktop&rcm=ACoAABX4AtoB0tpceeC8Jnqozhzdi2ViZ02bFHk    | https://www.linkedin.com/posts/taysir-ouaslati-9b6527a3_moving-from-manual-commands-to-bulletproof-activity-7483642510712586241-5EQf?utm_source=share&utm_medium=member_desktop&rcm=ACoAABX4AtoB0tpceeC8Jnqozhzdi2ViZ02bFHk |
-| 05 | Git & GitHub | ⬜ Not Started | ⏳ Pending | — | — |
+| 05 | Git & GitHub | ✅ Completed | ✅ Solved | https://www.linkedin.com/posts/taysir-ouaslati-9b6527a3_bridging-the-gap-from-local-git-workflow-share-7485076381735911425-dY5s/?utm_source=share&utm_medium=member_desktop&rcm=ACoAABX4AtoB0tpceeC8Jnqozhzdi2ViZ02bFHk | https://medium.com/@westatou/bridging-the-gap-from-local-git-workflow-to-live-cloud-deployment-ecdcf56154a8|
 | 06 | DevOps Lifecycle & Agile | ⬜ Not Started | ⏳ Pending | — | — |
 | 07 | AWS Cloud | ⬜ Not Started | ⏳ Pending | — | — |
 | 08 | Azure Cloud | ⬜ Not Started | ⏳ Pending | — | — |
@@ -159,7 +160,7 @@ Week 01 → Success Mindset
 | 11 | Docker | ⬜ Not Started | ⏳ Pending | — | — |
 | 12 | Kubernetes | ⬜ Not Started | ⏳ Pending | — | — |
 | 13 | Final Project | ⬜ Not Started | ⏳ Pending | — | — |
->>>>>>> upstream/main
+
 
 **Status:** ⬜ Not Started &nbsp;|&nbsp; 🔄 In Progress &nbsp;|&nbsp; ✅ Completed<br>
 **Assignment:** ⏳ Pending &nbsp;|&nbsp; ✅ Solved

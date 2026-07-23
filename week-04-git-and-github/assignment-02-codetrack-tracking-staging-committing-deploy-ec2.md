@@ -20,13 +20,13 @@ Confirm that Git works and that you are inside the correct `CodeTrack` repositor
 
 #### Screenshot 1 — Output of `pwd` showing you're inside `CodeTrack`
 
-Add your screenshot here.
+![alt text](screenshots\sc1-T1-ass2-week4.png)
 
 ---
 
 #### Screenshot 2 — Output of `git status` showing no "not a git repository" error
 
-Add your screenshot here.
+![alt text](screenshots\sc2-T1-ass2-week4.png)
 
 ---
 
@@ -40,7 +40,7 @@ Create the two starter UI files inside `CodeTrack`.
 
 #### Screenshot 3 — Output of `ls` showing `index.html` and `style.css`
 
-Add your screenshot here.
+![alt text](screenshots\sc3-T2-ass2-week4.png)
 
 ---
 
@@ -54,7 +54,9 @@ Copy the provided starter HTML and CSS content into your local `index.html` and 
 
 #### Screenshot 4 — Your editor showing the contents of `index.html` and `style.css`
 
-Add your screenshot here.
+![alt text](screenshots\sc4-T3-ass2-week4.png)
+
+![alt text](screenshots\sc4.1-T3-ass2-week4.png)
 
 ---
 
@@ -68,13 +70,13 @@ Confirm both files show as untracked, then stage them individually with `git add
 
 #### Screenshot 5 — Output of `git status` showing both files as untracked
 
-Add your screenshot here.
+![alt text](screenshots\sc5-T4-ass2-week4.png)
 
 ---
 
 #### Screenshot 6 — Output of `git status` showing both files staged under "Changes to be committed"
 
-Add your screenshot here.
+![alt text](screenshots\sc6-T4-ass2-week4.png)
 
 ---
 
@@ -88,13 +90,13 @@ Commit the staged starter files using the message `Initial UI scaffold: add inde
 
 #### Screenshot 7 — Output of `git commit`
 
-Add your screenshot here.
+![alt text](screenshots\sc7-T5-ass2-week4.png)
 
 ---
 
 #### Screenshot 8 — Output of `git log --oneline` showing the first commit
 
-Add your screenshot here.
+![alt text](screenshots\sc8-T5-ass2-week4.png)
 
 ---
 
@@ -108,25 +110,26 @@ Follow the instruction comment inside `index.html` to update the Student Name an
 
 #### Screenshot 9 — Browser showing the updated page with your Student Name and Group Name visible
 
-Add your screenshot here.
+![alt text](screenshots\sc9-T6-ass2-week4.png)
 
+![alt text](screenshots\sc9.1-T6-ass2-week4.png)
 ---
 
 #### Screenshot 10 — Output of `git status` showing `index.html` as modified
 
-Add your screenshot here.
+![alt text](screenshots\sc10-T6-ass2-week4.png)
 
 ---
 
 #### Screenshot 11 — Output of `git commit`
 
-Add your screenshot here.
+![alt text](screenshots\sc11-T6-ass2-week4.png)
 
 ---
 
 #### Screenshot 12 — Output of `git log --oneline` showing two commits
 
-Add your screenshot here.
+![alt text](screenshots\sc12-T6-ass2-week4.png)
 
 ---
 
@@ -140,13 +143,17 @@ Install and start Nginx on your EC2 instance, then copy `index.html` and `style.
 
 #### Screenshot 13 — Output showing Nginx `active (running)`
 
-Add your screenshot here.
+![alt text](screenshots\sc13-T7-ass2-week4.png)
+
+![alt text](screenshots\sc13.1-T7-ass2-week4.png)
 
 ---
 
 #### Screenshot 14 — Output of `curl -I http://localhost` showing `HTTP/1.1 200 OK`
 
-Add your screenshot here.
+![alt text](screenshots\sc14-T7-ass2-week4.png)
+
+![alt text](screenshots\sc14.1-T7-ass2-week4.png)
 
 ---
 
@@ -154,7 +161,9 @@ Add your screenshot here.
 
 Add your screenshot here.
 
----
+![alt text](screenshots\sc15-T7-ass2-week4.png)
+
+![alt text](screenshots\sc15.1-T7-ass2-week4.png)
 
 # LinkedIn Post (Required)
 
@@ -164,13 +173,14 @@ Add your screenshot here.
 
 Paste your LinkedIn post URL here:
 
-`Add your URL here`
+https://www.linkedin.com/posts/taysir-ouaslati-9b6527a3_bridging-the-gap-from-local-git-workflow-share-7485076381735911425-dY5s/?utm_source=share&utm_medium=member_desktop&rcm=ACoAABX4AtoB0tpceeC8Jnqozhzdi2ViZ02bFHk
 
 ---
 
 #### Screenshot — LinkedIn post showing the deployed CodeTrack application
 
-Add your screenshot here.
+
+![alt text](screenshots\sc15.1-T7-ass2-week4.png)
 
 ---
 
