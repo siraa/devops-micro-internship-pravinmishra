@@ -379,7 +379,7 @@ Impact: A code reviewer will search for those non-existent changes, waste time, 
 
 **3. Why does this PR need to target your own fork instead of the shared upstream repository?**
 
-Add your answer here.Targeting your own fork rather than the shared upstream repository is standard practice in both team development and course assignments. Here is why:
+Targeting your own fork rather than the shared upstream repository is standard practice in both team development and course assignments. Here is why:
 
 1. 🛑 Permission & Write Access Boundaries
 Upstream is protected: You generally do not have direct write or push access to the main upstream repository (the original project template or organization repo).
