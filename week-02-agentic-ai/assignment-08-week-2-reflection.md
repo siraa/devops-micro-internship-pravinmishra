@@ -57,11 +57,7 @@ You can publish your blog on:
 
 Blog Link:
 
-<<<<<<< HEAD
 https://medium.com/@westatou/reflection-week-2-4d9ab654c9e7
-=======
-`Add your URL here`
->>>>>>> upstream/main
 
 ---
 
@@ -139,11 +135,7 @@ https://lnkd.in/gRBQEwxE
 
 ### LinkedIn Post Link:
 
-<<<<<<< HEAD
 https://www.linkedin.com/posts/taysir-ouaslati-9b6527a3_how-agentic-ai-ugcPost-7480918796744998912-BzbJ/?utm_source=share&utm_medium=member_desktop&rcm=ACoAABX4AtoB0tpceeC8Jnqozhzdi2ViZ02bFHk
-=======
-`Add your URL here`
->>>>>>> upstream/main
 
 ---
 
