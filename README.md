@@ -73,8 +73,8 @@ This is not a course. It is an internship-style program — real deployments, re
 Week 01 → Success Mindset 
  [![Week 01 – Mindset](./badges/week-01.svg)](./week-01-success-mindset/) 
 
-<!-- Week 02 → Agentic AI with Claude Code -->
-<!-- [![Week 02 – Agentic AI](./badges/week-02.svg)](./week-02-agentic-ai/) -->
+ Week 02 → Agentic AI with Claude Code 
+ [![Week 02 – Agentic AI](./badges/week-02.svg)](./week-02-agentic-ai/) 
 
 <!-- Week 03 → Linux & Bash for DevOps -->
 <!-- [![Week 03 – Linux & Bash](./badges/week-03.svg)](./week-03-linux-and-bash-for-devops/) -->
@@ -131,11 +131,11 @@ Week 01 → Success Mindset
 | Week | Topic | Status | Assignment | LinkedIn Post | Blog Post |
 |------|-------|--------|------------|---------------|-----------|
 | 00 | Internet & Networking Basics | ✅ Completed | ✅ Solved |  https://www.linkedin.com/posts/taysir-ouaslati-9b6527a3_i-recently-completed-the-first-5-tasks-of-activity-7461310573104803840-q2WB?utm_source=share&utm_medium=member_desktop&rcm=ACoAABX4AtoB0tpceeC8Jnqozhzdi2ViZ02bFHk | https://medium.com/@westatou/chatgpt-as-a-learning-assistant-51489040bae6 | 
-| 01 | Success Mindset | ✅ Completed | ✅ Solved | https://www.linkedin.com/posts/taysir-ouaslati-9b6527a3_to-stay-consistent-and-continue-improving-share-7478373543274004481-qg-O/?utm_source=share&utm_medium=member_desktop&rcm=ACoAABX4AtoB0tpceeC8Jnqozhzdi2ViZ02bFHk  | https://medium.com/@westatou/why-consistency-matters-more-than-talent-in-learning-devops-d40073801edc    |    
+| 01 | Success Mindset | ✅ Completed | ✅ Solved | https://www.linkedin.com/posts/taysir-ouaslati-9b6527a3_to-stay-consistent-and-continue-improving-share-7478373543274004481-qg-O/?utm_source=share&utm_medium=member_desktop&rcm=ACoAABX4AtoB0tpceeC8Jnqozhzdi2ViZ02bFHk  | https://medium.com/@westatou/why-consistency-matters-more-than-talent-in-learning-devops-d40073801edc?sharedUserId=westatou    |    
 | 02 | Agentic AI with Claude Code  | ✅ Completed  | ✅ Solved | https://www.linkedin.com/posts/taysir-ouaslati-9b6527a3_my-version-20-over-the-past-few-years-share-7478367073870659584-De7O/?utm_source=share&utm_medium=member_desktop&rcm=ACoAABX4AtoB0tpceeC8Jnqozhzdi2ViZ02bFHk      |  https://medium.com/@westatou/why-consistency-matters-more-than-talent-in-learning-devops-d40073801edc  |
 | 03 | Linux for DevOps | ✅ Completed |  ✅ Solved | https://www.linkedin.com/posts/taysir-ouaslati-9b6527a3_managing-incidents-the-devops-way-ai-diagnostics-share-7484149796430217216-D5Dj/?utm_source=share&utm_medium=member_desktop&rcm=ACoAABX4AtoB0tpceeC8Jnqozhzdi2ViZ02bFHk     | https://medium.com/@westatou/managing-incidents-the-devops-way-ai-diagnostics-meets-human-intervention-%EF%B8%8F-496788c588e3   |                                                                                                  
-| 04 | Bash Scripting | ✅ Completed | ✅ Solved  | https://www.linkedin.com/posts/taysir-ouaslati-9b6527a3_moving-from-manual-commands-to-bulletproof-activity-7483642510712586241-5EQf?utm_source=share&utm_medium=member_desktop&rcm=ACoAABX4AtoB0tpceeC8Jnqozhzdi2ViZ02bFHk    | https://www.linkedin.com/posts/taysir-ouaslati-9b6527a3_moving-from-manual-commands-to-bulletproof-activity-7483642510712586241-5EQf?utm_source=share&utm_medium=member_desktop&rcm=ACoAABX4AtoB0tpceeC8Jnqozhzdi2ViZ02bFHk |
-| 05 | Git & GitHub | ✅ Completed | ✅ Solved | https://www.linkedin.com/posts/taysir-ouaslati-9b6527a3_bridging-the-gap-from-local-git-workflow-share-7485076381735911425-dY5s/?utm_source=share&utm_medium=member_desktop&rcm=ACoAABX4AtoB0tpceeC8Jnqozhzdi2ViZ02bFHk     | https://medium.com/@westatou/bridging-the-gap-from-local-git-workflow-to-live-cloud-deployment-ecdcf56154a8   |
+| 04 | Bash Scripting | ✅ Completed | ✅ Solved  | https://www.linkedin.com/posts/taysir-ouaslati-9b6527a3_moving-from-manual-commands-to-bulletproof-activity-7483642510712586241-5EQf?utm_source=share&utm_medium=member_desktop&rcm=ACoAABX4AtoB0tpceeC8Jnqozhzdi2ViZ02bFHk    | https://medium.com/@westatou/moving-from-manual-commands-to-bulletproof-devops-automation-0381754f478a |
+| 05 | Git & GitHub | ✅ Completed | ✅ Solved | https://www.linkedin.com/posts/taysir-ouaslati-9b6527a3_bridging-the-gap-from-local-git-workflow-share-7485076381735911425-dY5s/?utm_source=share&utm_medium=member_desktop&rcm=ACoAABX4AtoB0tpceeC8Jnqozhzdi2ViZ02bFHk     | https://medium.com/@westatou/bridging-the-gap-from-local-git-workflow-to-live-cloud-deployment-ecdcf56154a8?sharedUserId=westatou   |
 | 06 | DevOps Lifecycle & Agile | ⬜ Not Started | ⏳ Pending | — | — |
 | 07 | AWS Cloud | ⬜ Not Started | ⏳ Pending | — | — |
 | 08 | Azure Cloud | ⬜ Not Started | ⏳ Pending | — | — |
