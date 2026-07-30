@@ -303,7 +303,6 @@ Answer the following in your own words:
 
 **1. How do you confirm that the correct version of the application is deployed?**
 
-Write your answer here.
 
 Confirming that the correct version of our React application is successfully deployed to the production Nginx server requires verifying both the physical file metadata on the host server and the application build stamps inside the compiled code.
 also Checking File Timestamps and Permissions
@@ -341,7 +340,7 @@ Answer the following in your own words:
 
 **1. What caused the configuration failure?**
 
-Write your answer here.
+
 
 The configuration failure was caused by a syntax error: the deletion of the mandatory terminating semicolon (;) from the try_files directive line.
 
@@ -350,13 +349,13 @@ When Nginx parsed the file during the syntax check (sudo nginx -t), it failed be
 
 **2. How did you fix the issue?**
 
-Write your answer here.
+
 
 ---
 
 **3. How can you avoid this kind of issue in real production systems?**
 
-Write your answer here.
+
 
 The configuration failure was resolved by restoring the missing semicolon (;) at the end of the try_files directive line inside the /etc/nginx/sites-available/default virtual host configuration file, followed by a safe syntax validation and a zero-downtime service reload.
 ---

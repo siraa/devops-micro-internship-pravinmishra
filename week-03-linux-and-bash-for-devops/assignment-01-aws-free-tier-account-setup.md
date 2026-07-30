@@ -20,7 +20,7 @@ Demonstrate understanding of AWS basics and Free Tier usage by answering the fol
 
 #### Question 1 — What is an AWS account, and why do you need it at this stage?
 
-Write your answer here.
+
 
 An AWS account is our secure sandbox on Amazon's cloud platform, giving us on-demand access to virtual servers, storage, databases, and advanced networking tools.
 At this stage in our DevOps journey, it is an absolute necessity for this reasons:
@@ -41,7 +41,7 @@ In short, an AWS account is where our static configuration files become a live, 
 
 #### Question 2 — What is AWS Free Tier, and how long does it last?
 
-Write your answer here.
+
 
 The AWS Free Tier lets you use cloud services for free up to certain monthly limits.
 It has three types of timelines:
@@ -56,7 +56,7 @@ Short-Term Trials: Lasts only 30 to 90 days depending on the specific service.
 
 #### Question 3 — Name three AWS Free Tier services and their free usage limits.
 
-Write your answer here.
+
 1. Amazon EC2 (Elastic Compute Cloud)
 Offer Type: 12 Months Free
 Limit: 750 hours per month
