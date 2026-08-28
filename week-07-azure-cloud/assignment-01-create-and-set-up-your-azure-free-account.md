@@ -30,13 +30,13 @@ Confirm successful Azure Portal access and Locate the required services and subs
 
 #### Screenshot 1 — Azure Portal homepage after successful login
 
-Add your screenshot here.
+![alt text](screenshots\sc3-T2ass7-week6.png).
 
 ---
 
 #### Screenshot 2 — "Subscriptions" section showing the "Free Trial" subscription
 
-Add your screenshot here.
+![alt text](screenshots\sc3-T2ass7-week6.png).
 
 ---
 
@@ -44,7 +44,7 @@ Add your screenshot here.
 
 Write a three-to-four-line paragraph explaining which Azure services you plan to explore first and why.
 
-Write your answer here.
+To build a secure, resilient cloud architecture, I plan to explore Azure App Service, Azure SQL Database, and Azure Key Vault first. App Service provides a fully managed platform to rapidly deploy scalable web applications without the overhead of managing underlying infrastructure. Pairing it with Azure SQL Database offers a high-performance, automated relational database solution, while Azure Key Vault ensures critical application secrets and connection strings remain strictly encrypted and isolated.
 
 ---
 
