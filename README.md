@@ -137,8 +137,8 @@ Week 01 → Success Mindset
 | 03 | Linux for DevOps | ✅ Completed | ✅ Completed | https://www.linkedin.com/posts/taysir-ouaslati-9b6527a3_managing-incidents-the-devops-way-ai-diagnostics-share-7484149796430217216-D5Dj/?utm_source=share&utm_medium=member_desktop&rcm=ACoAABX4AtoB0tpceeC8Jnqozhzdi2ViZ02bFHk|  https://medium.com/@westatou/managing-incidents-the-devops-way-ai-diagnostics-meets-human-intervention-%EF%B8%8F-496788c588e3?sharedUserId=westatou |
 | 04 | Git & GitHub | ✅ Completed | ✅ Completed | https://www.linkedin.com/posts/taysir-ouaslati-9b6527a3_bridging-the-gap-from-local-git-workflow-share-7485076381735911425-dY5s/?utm_source=share&utm_medium=member_desktop&rcm=ACoAABX4AtoB0tpceeC8Jnqozhzdi2ViZ02bFHk  | https://medium.com/@westatou/bridging-the-gap-from-local-git-workflow-to-live-cloud-deployment-ecdcf56154a8?sharedUserId=westatou|
 | 05 | DevOps Lifecycle & Agile | ✅ Completed | ✅ Completed |https://www.linkedin.com/posts/taysir-ouaslati-9b6527a3_successfully-completed-a-5-day-mini-sprint-share-7491796605080215552-Oijp/?utm_source=share&utm_medium=member_desktop&rcm=ACoAABX4AtoB0tpceeC8Jnqozhzdi2ViZ02bFHk | https://medium.com/@westatou/successfully-completed-a-5-day-mini-sprint-from-backlog-to-aws-ec2-production-7ea540d30844 |
-| 06 | AWS Cloud | ⬜ Not Started | ⏳ Pending | — | — |
-| 07 | Azure Cloud | ⬜ Not Started | ⏳ Pending | — | — |
+| 06 | AWS Cloud | ✅ Completed | ✅ Completed | https://www.linkedin.com/posts/taysir-ouaslati-9b6527a3_built-tested-resilient-high-availability-activity-7493787365635702784-DrDo?utm_source=share&utm_medium=member_desktop&rcm=ACoAABX4AtoB0tpceeC8Jnqozhzdi2ViZ02bFHk | https://medium.com/@westatou/built-tested-resilient-high-availability-aws-infrastructure-4bf23c936544?sharedUserId=westatou |
+| 07 | Azure Cloud |  ✅ Completed  |  ✅ Completed  | — | — |
 | 08 | Terraform | ⬜ Not Started | ⏳ Pending | — | — |
 | 09 | Ansible | ⬜ Not Started | ⏳ Pending | — | — |
 | 10 | Azure DevOps (CI/CD) | ⬜ Not Started | ⏳ Pending | — | — |
