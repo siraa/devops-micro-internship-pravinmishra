@@ -106,9 +106,14 @@ https://github.com/siraa/Ultimate-Agentic-DevOps-with-Claude-Code
 Paste your forked repository URL here:
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 https://github.com/siraa/Ultimate-Agentic-DevOps-with-Claude-Code
 
 =======
+
+>>>>>>> upstream/main
+=======
+`Add your URL here`
 
 >>>>>>> upstream/main
 ---
