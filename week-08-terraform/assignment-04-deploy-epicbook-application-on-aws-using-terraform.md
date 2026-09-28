@@ -20,13 +20,13 @@ Define a VPC (10.0.0.0/16) with a public subnet (10.0.1.0/24) and private subnet
 
 #### Screenshot 1 — Terraform configuration showing the VPC and both subnet CIDR ranges
 
-Add your screenshot here.
+![alt text](screenshots\sc3-T3-ass2-week8.png)
 
 ---
 
 #### Screenshot 2 — Terraform configuration showing the Internet Gateway, public route table, and both Security Groups
 
-Add your screenshot here.
+![alt text](screenshots\sc3-T3-ass2-week8.png)
 
 ---
 
@@ -40,19 +40,19 @@ Use Terraform to launch a t2.micro Ubuntu 22.04 EC2 instance in the public subne
 
 #### Screenshot 3 — Terraform apply output showing successful EC2 provisioning
 
-Add your screenshot here.
+![alt text](screenshots\sc3-T3-ass2-week8.png)
 
 ---
 
 #### Screenshot 4 — EC2 instance running in the AWS Console with the public IP and subnet visible
 
-Add your screenshot here.
+![alt text](screenshots\sc3-T3-ass2-week8.png)
 
 ---
 
 #### Screenshot 5 — Terminal showing successful SSH access and installed software
 
-Add your screenshot here.
+![alt text](screenshots\sc3-T3-ass2-week8.png)
 
 ---
 
@@ -66,13 +66,13 @@ Deploy the EpicBook frontend and backend on the EC2 instance and configure Nginx
 
 #### Screenshot 6 — Terminal showing the EpicBook application files and dependency installation
 
-Add your screenshot here.
+![alt text](screenshots\sc3-T3-ass2-week8.png)
 
 ---
 
 #### Screenshot 7 — Terminal showing the application and Nginx services running
 
-Add your screenshot here.
+![alt text](screenshots\sc3-T3-ass2-week8.png)
 
 ---
 
@@ -86,19 +86,19 @@ Provision a private Amazon RDS MySQL instance (db.t3.micro, Publicly accessible:
 
 #### Screenshot 8 — Terraform apply output showing successful RDS provisioning
 
-Add your screenshot here.
+![alt text](screenshots\sc3-T3-ass2-week8.png)
 
 ---
 
 #### Screenshot 9 — RDS instance in the AWS Console showing the private network configuration and Publicly accessible: No
 
-Add your screenshot here.
+![alt text](screenshots\sc3-T3-ass2-week8.png)
 
 ---
 
 #### Screenshot 10 — Terminal showing successful database initialization or table verification from EC2
 
-Add your screenshot here.
+![alt text](screenshots\sc3-T3-ass2-week8.png)
 
 ---
 
@@ -112,13 +112,12 @@ Confirm EpicBook is accessible through the EC2 public IP and that navigation, ca
 
 #### Screenshot 11 — Browser showing the EpicBook application through the EC2 public IP
 
-Add your screenshot here.
+![alt text](screenshots\sc3-T3-ass2-week8.png)
 
 ---
 
 #### Screenshot 12 — Browser showing a working product, cart, order summary, or checkout flow
-
-Add your screenshot here.
+![alt text](screenshots\sc3-T3-ass2-week8.png)
 
 ---
 
@@ -126,7 +125,17 @@ Add your screenshot here.
 
 Write a short note describing any issue you faced, how you fixed it, and what you learned.
 
-Write your answer here.
+AWS Infrastructure with Terraform 👩‍💻
+I’ve completed a hands-on Terraform assignment focused on building and managing  🥰 AWS infrastructure using Infrastructure as Code.
+During this project, I worked on:
+• Creating a VPC with public and private subnets
+• Configuring an Internet Gateway and routing
+• Deploying an EC2 instance
+• Configuring Security Groups for EC2 and RDS
+• Setting up an Amazon RDS MySQL database
+• Organizing the infrastructure into reusable Terraform modules
+• Managing AWS resources and permissions through IAM
+This project helped me strengthen my understanding of Terraform, AWS networking, IAM, EC2, RDS, and Infrastructure as Code
 
 ---
 
@@ -142,7 +151,7 @@ Publish a LinkedIn post about what you achieved in this assignment, with public 
 
 Paste your LinkedIn post URL here:
 
-`Add your URL here`
+[`Add your URL here`](https://lnkd.in/p/dTW8_-aj)
 
 ---
 
