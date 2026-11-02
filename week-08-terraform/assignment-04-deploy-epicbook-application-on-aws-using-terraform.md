@@ -24,7 +24,7 @@ Prepare your local environment by installing Terraform, AWS CLI, and the HashiCo
 
 Add a screenshot of the terminal showing successful `terraform version` output.
 
-Add your screenshot here.
+![alt text](screenshots\sc1-T0-ass1-week8.png)
 
 ---
 
@@ -32,7 +32,7 @@ Add your screenshot here.
 
 Add a screenshot of the terminal showing successful `aws --version` output.
 
-Add your screenshot here.
+![alt text](screenshots\sc1-T0-ass1-week8.png)
 
 ---
 
@@ -40,7 +40,7 @@ Add your screenshot here.
 
 Add a screenshot of VS Code showing the HashiCorp Terraform extension installed and enabled.
 
-Add your screenshot here.
+![alt text](screenshots\sc3-T0-ass4-week8.png)
 
 ---
 
@@ -80,7 +80,7 @@ terraform-aws-epicbook/
 
 Add a screenshot of the VS Code Explorer showing the complete root project and the `network`, `ec2`, and `rds` module directory structure.
 
-Add your screenshot here.
+![alt text](screenshots\sc4-T1-ass4-week8.png) 
 
 ---
 
@@ -109,7 +109,7 @@ The network module must include:
 
 Add a screenshot of VS Code showing the VPC, public subnet, and two private database subnet configurations.
 
-Add your screenshot here.
+![alt text](screenshots\sc4-T1-ass4-week8.png) 
 
 ---
 
@@ -117,7 +117,7 @@ Add your screenshot here.
 
 Add a screenshot of VS Code showing the Internet Gateway, public route table, and route table association.
 
-Add your screenshot here.
+![alt text](screenshots\sc4-T1-ass4-week8.png) 
 
 ---
 
@@ -125,7 +125,7 @@ Add your screenshot here.
 
 Add a screenshot of VS Code showing the EC2 and RDS Security Groups, including MySQL access from the EC2 Security Group only.
 
-Add your screenshot here.
+![alt text](screenshots\sc4-T1-ass4-week8.png) 
 
 ---
 
@@ -133,7 +133,7 @@ Add your screenshot here.
 
 Add a screenshot of VS Code showing the network module outputs.
 
-Add your screenshot here.
+![alt text](screenshots\sc8-T2-ass4-week8.png)   
 
 ---
 
@@ -161,7 +161,7 @@ The `user_data.sh` script must install the required software without storing dat
 
 Add a screenshot of VS Code showing the EC2 resource and `user_data` configuration.
 
-Add your screenshot here.
+![alt text](screenshots\sc8-T2-ass4-week8.png)   
 
 ---
 
@@ -171,7 +171,7 @@ Add a screenshot of VS Code showing `user_data.sh`.
 
 Ensure that no credentials, passwords, private keys, access tokens, or application secrets are visible.
 
-Add your screenshot here.
+![alt text](screenshots\sc8-T2-ass4-week8.png)      
 
 ---
 
@@ -179,7 +179,7 @@ Add your screenshot here.
 
 Add a screenshot of VS Code showing the EC2 module variables and outputs.
 
-Add your screenshot here.
+![alt text](screenshots\sc8-T2-ass4-week8.png) 
 
 ---
 
@@ -271,7 +271,7 @@ Initialize the modular Terraform project, validate the configuration, review the
 
 Add a screenshot of the terminal showing successful `terraform init` output.
 
-Add your screenshot here.
+![alt text](screenshots\sc3-T3-ass2-week8.png)
 
 ---
 
@@ -279,7 +279,7 @@ Add your screenshot here.
 
 Add a screenshot of the terminal showing successful `terraform validate` output.
 
-Add your screenshot here.
+![alt text](screenshots\sc3-T3-ass2-week8.png)
 
 ---
 
@@ -287,15 +287,15 @@ Add your screenshot here.
 
 Add a screenshot showing the Terraform plan summary and proposed resources.
 
-Add your screenshot here.
+![alt text](screenshots\sc4-T4-ass3-week8.png)
 
 ---
 
-### Screenshot 21 — Terraform Apply
+### Screenshot 21 — Terraform Apply  
 
 Add a screenshot showing successful `terraform apply` completion.
 
-![alt text](screenshots\sc3-T3-ass2-week8.png)
+![alt text](screenshots\ass5-week8-apply.png)
 
 ---
 
@@ -319,7 +319,7 @@ Verify that the EC2 and RDS resources were successfully provisioned and confirm 
 
 Add a screenshot of AWS CLI showing the EC2 instance running.
 
-Add your screenshot here.
+![alt text](screenshots\sc3-T3-ass2-week8.png)
 
 ---
 
@@ -327,7 +327,7 @@ Add your screenshot here.
 
 Add a screenshot of AWS CLI showing that RDS is available and not publicly accessible.
 
-Add your screenshot here.
+![alt text](screenshots\sc3-T3-ass2-week8.png) 
 
 ---
 
@@ -383,7 +383,7 @@ Add a screenshot of the terminal showing successful dependency installation and 
 
 #### Screenshot 12 — Browser showing a working product, cart, order summary, or checkout flow
 
-Add your screenshot here.
+![alt text](screenshots\sc3-T3-ass2-week8.png)
 
 ---
 
@@ -391,7 +391,7 @@ Add your screenshot here.
 
 Add a screenshot of the terminal showing EpicBook running or listening on port `8080`.
 
-Write your answer here.
+![alt text](screenshots\sc3-T3-ass2-week8.png)
 
 ---
 
@@ -411,13 +411,12 @@ Verify that EpicBook, EC2, Nginx, and Amazon RDS work together successfully.
 
 Paste your LinkedIn post URL here:
 
-`Add your URL here`
+https://lnkd.in/p/d2NjMSwh
 
----
 
 #### Screenshot 13 — Published LinkedIn post showing the text and at least one image or proof
 
-Add your screenshot here.
+![alt text](screenshots\linked-in-week8.png)
 
 ---
 
@@ -435,13 +434,13 @@ Write the post in your own words and include at least one deployment screenshot 
 
 Add a screenshot of the published LinkedIn post showing the post and at least one deployment image or other proof.
 
-Add your screenshot here.
+![alt text](screenshots\linked-in-week8.png)
 
 ## LinkedIn Post URL
 
 **LinkedIn Post URL:** Add your LinkedIn post URL here
 
----
+https://lnkd.in/p/d2NjMSwh
 
 # Submission Instructions
 

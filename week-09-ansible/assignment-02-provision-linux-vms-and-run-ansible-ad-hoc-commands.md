@@ -24,13 +24,13 @@ This project will use the Git repository and Ansible controller prepared in Assi
 
 #### Screenshot 1 — Terminal showing the complete `ansible-adhoc-lab` project structure
 
-Add your screenshot here.
+![alt text](screenshots\sc1-T1-ass2-week9.png)
 
 ---
 
 #### Screenshot 2 — Terminal showing `git status --short` with the new project files and updated `.gitignore`
 
-Add your screenshot here.
+![alt text](screenshots\commit-passed-ass1-week9.png)
 
 ---
 
@@ -235,37 +235,37 @@ Answer the following in your own words:
 
 **1. What is the purpose of an Ansible inventory file?**
 
-Add your answer here.
+An Ansible inventory file defines the managed hosts and groups of hosts that Ansible can connect to and manage. It can also specify connection details such as IP addresses, SSH usernames, and private key paths.
 
 ---
 
 **2. What is the difference between the `web`, `app`, and `db` groups in your inventory?**
 
-Add your answer here.
+The web group contains web servers that deliver website content to users. The app group contains application servers that run application logic, while the db group contains database servers that store and manage data. Grouping hosts by role makes it easier to target specific servers with Ansible commands and playbooks.
 
 ---
 
 **3. What does the Ansible `ping` module verify?**
 
-Add your answer here.
+The Ansible ping module checks whether Ansible can connect to a managed host and execute a basic Python-based task. A successful response of pong indicates that the connection and remote execution are working. It does not test network ICMP ping.
 
 ---
 
 **4. Why do package installation commands require `--become`?**
 
-Add your answer here.
+Package installation commands usually require administrative privileges to modify system packages and configuration files. The --become option allows Ansible to execute tasks with elevated privileges, typically using sudo.
 
 ---
 
 **5. When would you use an ad-hoc command instead of a playbook?**
 
-Add your answer here.
+I would use an ad-hoc command for a quick, one-time task, such as checking connectivity with ansible web -m ping or checking a service's status. For multi-step tasks that need to be repeatable and documented, I would use a playbook.
 
 ---
 
 **6. What is one challenge you faced while setting up SSH or inventory, and how did you fix it?**
 
-Add your answer here.
+One challenge was configuring the correct SSH private key path and connection details in the inventory file. I checked the available SSH keys, updated the inventory with the appropriate host IP addresses and SSH settings, and tested connectivity using the Ansible ping module.
 
 ---
 

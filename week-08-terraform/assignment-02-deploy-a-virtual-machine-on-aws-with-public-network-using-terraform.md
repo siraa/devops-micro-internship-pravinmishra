@@ -62,7 +62,7 @@ The configuration must include:
 
 Ensure that no AWS credentials, private keys, account IDs, or other sensitive information are visible.
 
-Add your screenshot here.
+![alt text](screenshots\sc3-T1-ass2-week8.png)
 
 ---
 
@@ -102,7 +102,8 @@ Review the Terraform execution plan, provision the AWS resources, and record the
 
 #### Screenshot 7 — Terraform output showing the public IP address of the EC2 instance
 
-Add your screenshot here.
+
+![alt text](screenshots\sc4-T4-ass2-week8.png)
 
 ---
 
@@ -161,19 +162,7 @@ Remove all AWS resources created by Terraform after completing the deployment an
 
 ## Goal
 
-<<<<<<< HEAD
 ![alt text](screenshots\sc9-T3-ass1-week8.png)
-=======
-Share your AWS Terraform deployment progress by using either Facebook or WhatsApp from the DMI Leaderboard.
-
-### Evidence
-
-#### Screenshot 11 — Published Facebook post/Story or WhatsApp Status showing Terraform deployment progress and DMI Leaderboard progress link
-
-Add your screenshot here.
-
-> Use Screenshot 6 — successful `terraform apply` output — as the assignment image for your post or Status. Ensure that no AWS credentials, private keys, account IDs, private phone numbers, or personal messages are visible.
->>>>>>> upstream/main
 
 ---
 

@@ -31,7 +31,7 @@ Prepare the Book Review App project and configure the provided Claude Code Agent
 
 Add a screenshot of the project `CLAUDE.md` showing the three-tier architecture, security boundaries, Terraform requirements, and human-approval rules.
 
-![alt text](screenshots\sc1-T0-ass1-week8.png)
+![alt text](screenshots\sc1-T0-ass5-week8.png)
 
 ---
 
@@ -39,7 +39,7 @@ Add a screenshot of the project `CLAUDE.md` showing the three-tier architecture,
 
 Add a screenshot showing the Terraform Engineer subagent configuration.
 
-![alt text](screenshots\sc1-T0-ass1-week8.png)
+![alt text](screenshots\sc2-T0-ass5-week8.png)
 
 ---
 
@@ -55,7 +55,7 @@ Add a screenshot showing the Architecture and Security Reviewer subagent configu
 
 Add a screenshot showing Terraform MCP connected and available.
 
-Add your screenshot here.
+![alt text](screenshots\sc4-T0-ass5-week8.png)
 
 ---
 
@@ -63,7 +63,7 @@ Add your screenshot here.
 
 Add a screenshot showing the configured Claude Code validation hooks.
 
-Add your screenshot here.
+![alt text](claudescreenshots\sc5-T0-ass5-week8.png)
 
 ---
 
@@ -71,7 +71,7 @@ Add your screenshot here.
 
 ## Goal
 
-Design the required secure, highly available three-tier architecture and create an architecture diagram before building the infrastructure.
+<Design the required secure, highly available three-tier architecture and create an architecture diagram before building the infrastructure.
 
 The diagram must show:
 
@@ -86,12 +86,11 @@ The diagram must show:
 - Application Tier
 - Managed MySQL
 - Read replica
-- Main traffic flow
+- Main traffic flow>
 
-<<<<<<< HEAD
 ![alt text](screenshots\sc1-T0-ass1-week8.png)
 
----
+
 
 #### Screenshot 5 — Public frontend load balancer configuration
 
@@ -112,7 +111,7 @@ The diagram must show:
 ---
 
 # Task 3 — VMs and Application Deployment
-=======
+
 ## Architecture Diagram
 
 Add the completed architecture diagram here.
@@ -120,7 +119,7 @@ Add the completed architecture diagram here.
 ---
 
 # Task 2 — Build the Terraform Networking and Security Layers
->>>>>>> upstream/main
+
 
 ## Goal
 
@@ -184,16 +183,16 @@ Add a screenshot showing the private internal load balancer.
 
 ---
 
-<<<<<<< HEAD
+
 #### Screenshot 14 — Functional review flow with working backend API and database integration
 ![alt text](screenshots\sc1-T0-ass1-week8.png)
-=======
+
 ### Screenshot 12 — Healthy Targets
 
 Add a screenshot showing healthy target groups or backend pools.
 
 Add your screenshot here.
->>>>>>> upstream/main
+
 
 ---
 
@@ -398,63 +397,63 @@ Reflect on the architecture, Terraform implementation, and Agentic AI workflow. 
 
 ### 1. Why did you separate the Web, Application, and Database tiers?
 
-Write your answer here.
+I separated the three tiers to isolate responsibilities and improve security. Each tier has a specific role, and traffic can be controlled between the tiers.
 
 ### 2. Why is the Application Tier private?
 
-Write your answer here.
+The Application Tier is private because users should not access the backend directly. Requests go through the public Web Tier and the internal load balancer, which reduces the attack surface.
 
 ### 3. Why is MySQL private?
 
-Write your answer here.
+MySQL is private because the database should never be directly accessible from the Internet. Only the Application Tier should be allowed to connect to it on port 3306.
 
 ### 4. Why are multiple Availability Zones used?
 
-Write your answer here.
+Multiple Availability Zones improve availability. If one Availability Zone has a problem, resources in the other zone can continue serving the application.
 
 ### 5. What is the difference between Multi-AZ/high availability and a read replica?
 
-Write your answer here.
+Multi-AZ is mainly used for high availability and failover. A read replica is a separate database copy that can be used to handle read traffic and reduce the load on the primary database.
 
 ## Terraform
 
 ### 6. How did you divide your Terraform into modules?
 
-Write your answer here.
+I divided Terraform into separate modules for the main infrastructure components: network, security, alb, compute, and database. This makes the configuration easier to organize, reuse, and maintain.
 
 ### 7. How do the modules communicate through variables and outputs?
 
-Write your answer here.
+The root module passes configuration to child modules through variables. Each module exposes important resource information through outputs, which other modules can use as inputs.
 
 ### 8. What did you specifically check in `terraform plan`?
 
-Write your answer here.
+I checked which resources Terraform planned to create, modify, or destroy. I also checked subnet placement, security group rules, load balancer configuration, database settings, Availability Zones, and unexpected destructive changes before applying anything.  
 
 ## Agentic AI
 
 ### 9. What was the purpose of `CLAUDE.md`?
 
-Write your answer here.
+The purpose of CLAUDE.md was to provide Claude Code with persistent project-specific instructions and guardrails. It defined the expected AWS three-tier architecture, Terraform module structure, security requirements, validation workflow, and rules for human approval. It also instructed the Terraform Engineer to modify and validate Terraform code without automatically running destructive operations such as terraform apply or terraform destroy.
 
 ### 10. What work did the Terraform Engineer subagent perform?
 
-Write your answer here.
+The Terraform Engineer subagent was responsible for designing and working on the Terraform infrastructure for the Book Review App. It helped structure the infrastructure into modules for networking, security, load balancing, compute, and the database. It also helped configure the two-AZ architecture, public and private subnets, security groups, load balancers, EC2 instances, RDS MySQL, and the read replica. It was also used to validate Terraform configuration and troubleshoot infrastructure errors.
 
 ### 11. What did the Architecture and Security Reviewer identify?
 
-Write your answer here.
+The Architecture and Security Reviewer checked whether the infrastructure followed the required secure three-tier design. Important points included keeping the database in private subnets, preventing direct internet access to the application and database tiers, restricting MySQL access to the application tier, using separate security groups between tiers, and ensuring the load balancers were correctly positioned. The review also highlighted the importance of high availability across two Availability Zones and avoiding unrestricted SSH or MySQL access from 0.0.0.0/0.
 
 ### 12. Why did you use Terraform MCP instead of relying only on Claude's existing Terraform knowledge?
 
-Write your answer here.
+Terraform MCP was used to give Claude access to more accurate and current Terraform and infrastructure information instead of relying only on the model's general knowledge. This was useful for checking Terraform resources, provider behavior, configuration requirements, and infrastructure details. It reduced the risk of generating Terraform code based on outdated or incorrect assumptions. 
 
 ### 13. What was the purpose of your validation hooks?
 
-Write your answer here.
+The validation hooks were used as safety controls before infrastructure-changing operations. They ensured that Terraform code was formatted and validated and that a plan could be reviewed before applying changes. They also helped prevent unsafe operations such as automatic terraform apply, terraform destroy, or destructive changes without human approval.
 
 ### 14. Describe one real issue Claude helped you troubleshoot.
 
-Write your answer here.
+One real issue involved the RDS read replica. Terraform reported that replicate_source_db had to use the database ARN when a DB subnet group was specified. The configuration was using the primary database identifier instead. The issue was fixed by changing the replica configuration to use the primary RDS instance ARN, followed by terraform fmt, terraform validate, and terraform plan to verify the correction.
 
 ### 15. Describe one recommendation you reviewed, modified, or rejected instead of accepting blindly.
 
@@ -470,7 +469,6 @@ Backend Subnet: Isolated subnet housing a Virtual Machine Scale Set (VMSS) or Li
 
 Database / Backend Tier: Isolated private subnet holding backend data stores (e.g., Azure SQL / Database for MySQL) with Private Endpoints.
 
----
 
 # Task 10 — Publish the Mandatory LinkedIn Post
 

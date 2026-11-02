@@ -347,7 +347,17 @@ Add a screenshot of `ls -lah reports` showing both:
 
 Explain why this workflow needs both a fixed-rule hook that blocks `apply` outright and an AI skill that explains the risk in plain language — why isn't one of the two enough on its own?
 
-Add your answer here
+They serve two different purposes:
+
+The fixed-rule hook provides a hard safety boundary. It blocks terraform apply regardless of what the AI thinks or says. This prevents the agent from accidentally making infrastructure changes.
+The AI skill provides context and explanation. It can explain what the proposed changes mean, identify potential risks, and help the human decide whether the plan is safe to apply.
+
+One alone is not enough:
+
+Hook only: safe, but it gives little help understanding why the change is risky or what needs to be reviewed.
+AI skill only: informative, but the AI could misunderstand a situation or fail to recognize a dangerous change. There would be no guaranteed technical block.
+
+Together, they provide enforced safety + human-readable reasoning: the hook prevents the unsafe action, while the AI helps the human understand and make the final decision.
 
 ---
 

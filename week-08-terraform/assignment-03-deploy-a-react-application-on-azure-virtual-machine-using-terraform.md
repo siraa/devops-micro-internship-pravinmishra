@@ -32,7 +32,7 @@ Add a screenshot of the terminal showing successful `terraform version` output.
 
 Add a screenshot of the terminal showing successful `az version` output.
 
-Add your screenshot here.
+![alt text](screenshots\sc3-T3-ass2-week8.png)
 
 ---
 
@@ -40,7 +40,7 @@ Add your screenshot here.
 
 Add a screenshot of the VS Code Extensions panel showing the HashiCorp Terraform extension installed and enabled.
 
-Add your screenshot here.
+![alt text](screenshots\sc3-T3-ass2-week8.png)
 
 ---
 
@@ -90,7 +90,7 @@ Add a screenshot of VS Code showing the Linux virtual machine configuration, inc
 
 Ensure that passwords, private keys, account IDs, access tokens, and other sensitive information are hidden.
 
-Add your screenshot here.
+![alt text](screenshots\sc3-T3-ass2-week8.png)
 
 ---
 
@@ -100,7 +100,7 @@ Add a screenshot of VS Code showing the completed `cloud-init.sh` deployment scr
 
 Ensure that no passwords, Azure credentials, access tokens, SSH private keys, or other sensitive information are visible.
 
-Add your screenshot here.
+![alt text](screenshots\sc3-T3-ass2-week8.png)
 
 ---
 
@@ -108,7 +108,7 @@ Add your screenshot here.
 
 Add a screenshot of VS Code showing the public IP `output` block in `main.tf`.
 
-Add your screenshot here.
+![alt text](screenshots\sc3-T3-ass2-week8.png)
 
 ---
 
@@ -156,7 +156,7 @@ Add a screenshot showing successful `terraform apply` completion.
 
 Add a screenshot showing the VM public IP address returned by `terraform output`.
 
-Add your screenshot here.
+![alt text](screenshots\sc4.1-T4-ass3-week8.png)
 
 ## VM Public IP Address
 
@@ -186,7 +186,7 @@ Add a screenshot of SSH terminal showing successful connection to the Azure VM a
 
 Add a screenshot of the terminal showing that the Nginx service is running successfully.
 
-Add your screenshot here.
+![alt text](screenshots\sc3-T3-ass2-week8.png)
 
 ---
 
@@ -224,7 +224,6 @@ Add a screenshot of the terminal showing successful `terraform destroy` completi
 
 ---
 
-<<<<<<< HEAD
 #### Screenshot 9 — Terminal showing that Nginx is active and running
 
 ![alt text](screenshots\sc3-T3-ass2-week8.png)
@@ -232,9 +231,6 @@ Add a screenshot of the terminal showing successful `terraform destroy` completi
 ---
 
 # Task 8 — Test the Deployment
-=======
-# Task 7 — Share Your Deployment Progress on LinkedIn
->>>>>>> upstream/main
 
 ## Goal
 
@@ -275,7 +271,6 @@ Ensure that no passwords, private keys, account IDs, access tokens, or other sen
 
 ---
 
-<<<<<<< HEAD
 ### Notes
 
 Write a short summary of what you built and any issues you encountered and how you resolved them.
@@ -286,8 +281,6 @@ I encountered several issues during the deployment. SSH access was initially blo
 
 ---
 
-=======
->>>>>>> upstream/main
 # Submission Instructions
 
 - Complete Tasks 0–7 in sequence.

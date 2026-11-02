@@ -210,7 +210,7 @@ Confirm the Book Review App works end to end through the public endpoint, with a
 
 Paste your public endpoint URL here:
 
-`Add your URL here`
+
 
 ---
 
@@ -218,7 +218,7 @@ Paste your public endpoint URL here:
 
 Summarize what worked, issues encountered and how they were fixed, and the availability/security/secrets/monitoring/backup choices made.
 
-Write your answer here.
+Key Operational & Architectural ChoicesAvailability:Multi-AZ / Multi-Fault Domain: Redundant compute instances and public/internal load balancers ensure no single point of failure (SPOF).   Database Redundancy: Managed MySQL configured with Multi-AZ / Read Replica instances for automatic failover and read offloading.   Security:Network Isolation: Strict subnet boundaries where application and database tiers have zero direct internet access.   Least-Privilege Firewalls (NSGs / Security Groups): Traffic strictly restricted sequentially: Internet $\rightarrow$ Public Entry Point $\rightarrow$ Web Tier $\rightarrow$ Application Tier $\rightarrow$ Database Tier.   Human-in-the-Loop: All AI agent-generated infrastructure changes require explicit human review and approval prior to apply phases.   Secrets Management:Credentials, API tokens, and database connection strings are stored in Azure Key Vault / AWS Secrets Manager with RBAC / Managed Identities, keeping sensitive data completely out of source code repositories.Monitoring & Observability:Integrated Azure Monitor / AWS CloudWatch and Log Analytics for health probes, diagnostic logging, metric collection, and system alert notifications.Backup & Retention:Automated daily snapshots, point-in-time recovery (PITR), and retention policies enabled on the managed MySQL instance to meet Recovery Point Objectives (RPO).
 
 ---
 
