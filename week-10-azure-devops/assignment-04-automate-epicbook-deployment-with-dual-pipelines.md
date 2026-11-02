@@ -70,7 +70,7 @@ Add a screenshot of the Infrastructure Pipeline run showing:
 * `backend_private_ip`
 * `mysql_fqdn`
 
-Add your screenshot here.
+![alt text](screenshots\Capture d'écran 2026-11-02 181632.png)
 
 > Do not expose the MySQL password, Client Secret, Terraform state, SSH private key, or another sensitive value.
 
@@ -86,7 +86,7 @@ Add a screenshot of the Azure Portal Resource Group overview showing:
 * Azure Database for MySQL Flexible Server
 * Related EpicBook resources
 
-Add your screenshot here.
+![alt text](screenshots\Capture d'écran 2026-11-02 181632.png)
 
 > Hide sensitive IDs, credentials, and database details.
 
@@ -124,7 +124,7 @@ Run the Application Pipeline to configure the VMs, deploy EpicBook, and verify t
 
 Add a screenshot of the Application Pipeline run summary showing all required stages or jobs succeeded.
 
-Add your screenshot here.
+![alt text](screenshots\Capture d'écran 2026-11-02 181632.png)
 
 ---
 
@@ -137,7 +137,7 @@ Add a screenshot of the Application Pipeline log showing:
 * Zero failed hosts
 * Zero unreachable hosts
 
-Add your screenshot here.
+![alt text](screenshots\Capture d'écran 2026-11-02 181632.png)
 
 > Do not expose the SSH private key, MySQL password, Client Secret, or complete database connection string.
 
@@ -162,7 +162,7 @@ Add a browser screenshot showing:
 
 The screenshot may show a product, cart, or successful order view.
 
-Add your screenshot here.
+![alt text](screenshots\Capture d'écran 2026-11-02 181632.png)
 
 > Do not expose credentials or sensitive information.
 
@@ -172,15 +172,15 @@ Add your screenshot here.
 
 ## Frontend Application URL
 
-[Paste your final EpicBook application URL here.]
+http://18.153.95.88/
 
 ## Infrastructure Repository URL
 
-[Paste your Infrastructure Repository URL here.]
+http://18.153.95.88/
 
 ## Application Repository URL
 
-[Paste your Application Repository URL here.]
+http://18.153.95.88/
 
 ---
 
@@ -188,7 +188,7 @@ Add your screenshot here.
 
 Write a short explanation of why separate Infrastructure and Application Repositories were used.
 
-[Write your explanation here.]
+I used two separate repositories to keep infrastructure provisioning and application deployment independent and organized. The Infrastructure Repository contains Terraform configuration files for creating and managing Azure resources, while the Application Repository contains Ansible playbooks and application deployment configuration. This separation improves maintainability, security, and workflow management.
 
 ---
 
@@ -201,7 +201,7 @@ Write a short explanation of how the following non-sensitive Terraform outputs w
 * `backend_private_ip`
 * `mysql_fqdn`
 
-[Write your explanation here.]
+After successfully provisioning the Azure infrastructure with Terraform, I collected the required non-sensitive outputs: app_public_ip, backend_ansible_host, backend_private_ip, and mysql_fqdn. I manually transferred these values to the Application Repository and used them in the Ansible inventory and configuration files. This allowed Ansible to connect to the virtual machines and configure the application and database environment.
 
 ---
 
@@ -216,11 +216,11 @@ Add a screenshot of your LinkedIn post showing:
 * Post text
 * At least one image or link
 
-Add your screenshot here.
+![alt text](week-10-azure-devops\screenshots\post-ass1-week10.png)
 
 ## LinkedIn Post URL
 
-[Paste your public LinkedIn post URL here.]
+https://lnkd.in/p/dTYXxVDR
 
 Your post must include:
 

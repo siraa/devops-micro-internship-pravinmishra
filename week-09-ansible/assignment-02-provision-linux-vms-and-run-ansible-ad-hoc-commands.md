@@ -106,7 +106,7 @@ Initialize and validate the Terraform configuration, review the execution plan, 
 
 ### Notes
 
-Add your task notes here.
+The Azure Portal screenshot shows all four EpicBook virtual machines in the Running state. Each VM has a role-based name: epicbook-app-vm, epicbook-web-vm, epicbook-db-vm, and epicbook-backup-vm. This confirms that all four virtual machines were successfully created and are running in Azure.
 
 ---
 
@@ -164,7 +164,7 @@ The inventory allows Ansible to run commands against all servers, or only specif
 
 ### Notes
 
-Add your task notes here.
+The Ansible inventory graph displays the managed hosts organized into groups. It confirms that Ansible can read the inventory file and recognize the four EpicBook virtual machines. This makes it easier to manage the servers according to their roles, such as application, web, database, and backup.
 
 ---
 

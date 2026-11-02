@@ -58,7 +58,8 @@ Add a screenshot from AWS or Azure showing:
 * VM status as **Running**
 * Public IP address
 
-Add your screenshot here.
+
+![alt text](screenshots\Capture d'écran 2026-11-02 181632.png)
 
 ---
 
@@ -72,7 +73,7 @@ Add an SSH terminal screenshot showing the output of:
 
 The screenshot must confirm a supported Ubuntu version, `x86_64` architecture, and a successful HTTP response from Azure DevOps.
 
-Add your screenshot here.
+![alt text](screenshots\Capture d'écran 2026-11-02 181632.png)
 
 ---
 
@@ -93,7 +94,7 @@ Add a terminal screenshot showing:
 * Agent service start
 * `sudo ./svc.sh status` reporting that the service is running
 
-Add your screenshot here.
+![alt text](screenshots\Capture d'écran 2026-11-02 181632.png)
 
 > Ensure that the PAT is not visible.
 
@@ -116,7 +117,7 @@ Add a screenshot of the Azure DevOps Agent Pool **Agents** page showing:
 * Agent status as **Online**
 * Agent enabled and available
 
-Add your screenshot here.
+![alt text](screenshots\Capture d'écran 2026-11-02 181632.png)
 
 ---
 
@@ -138,7 +139,7 @@ Add a screenshot of `azure-pipelines.yml` open in the Azure Repos editor showing
 * Your Full Name
 * Linux verification commands
 
-Add your screenshot here.
+![alt text](screenshots\Capture d'écran 2026-11-02 181632.png)
 
 ---
 
@@ -156,7 +157,7 @@ Add a screenshot of the successful Azure DevOps pipeline run showing:
 * Output from `df -h`
 * Output from `pwd`
 
-Add your screenshot here.
+![alt text](screenshots\Capture d'écran 2026-11-02 181632.png)
 
 ---
 
@@ -165,7 +166,25 @@ Add your screenshot here.
 Paste the contents of your completed `azure-pipelines.yml` file below.
 
 ```yaml
-# Paste your completed azure-pipelines.yml here
+trigger: none
+
+pool:
+  name: 'YOUR_AGENT_POOL_NAME'
+
+steps:
+  - script: |
+      echo "Submitted by: YOUR FULL NAME"
+      echo "Agent name: $AGENT_NAME"
+      echo "Machine name: $(hostname)"
+      echo "Linux system information:"
+      uname -a
+      echo "Current user:"
+      whoami
+      echo "Disk usage:"
+      df -h
+      echo "Working directory:"
+      pwd
+    displayName: 'Verify self-hosted Ubuntu agent'
 ```
 
 > Do not include your PAT, SSH private key, password, or cloud credentials in the YAML file.
@@ -176,7 +195,7 @@ Paste the contents of your completed `azure-pipelines.yml` file below.
 
 Write a short summary of what you configured.
 
-[Write your summary here.]
+I created an Azure DevOps YAML pipeline using a self-hosted agent pool. The pipeline runs a Bash script on my Ubuntu VM to verify the agent's environment. It displays my name, the agent name, the machine name, Linux system information, the current user, disk usage, and the working directory. I successfully ran the pipeline and verified that all commands executed correctly.
 
 ---
 
@@ -191,9 +210,9 @@ Add a screenshot of your LinkedIn post showing:
 * Three to five lines explaining your experience
 * A screenshot of the successful pipeline run with no secrets visible
 
-Add your screenshot here.
+![alt text](screenshots\Capture d'écran 2026-11-02 181632.png)
 
-**LinkedIn Post URL:** [Paste your LinkedIn post URL here]
+**LinkedIn Post URL:** https://lnkd.in/p/dTYXxVDR
 
 ---
 

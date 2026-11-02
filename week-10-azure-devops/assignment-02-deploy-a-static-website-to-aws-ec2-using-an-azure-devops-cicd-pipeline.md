@@ -36,7 +36,7 @@ Add a screenshot of Azure Repos showing:
 * Project files
 * `index.html`
 
-Add your screenshot here.
+![alt text](screenshots\Capture d'écran 2026-11-02 181632.png)
 
 ---
 
@@ -65,7 +65,7 @@ Add a screenshot of the saved SSH Service Connection **Overview** page showing:
 * Service Connection name
 * SSH connection type
 
-Add your screenshot here.
+![alt text](screenshots\Capture d'écran 2026-11-02 181632.png)
 
 > Do not expose a password, SSH private key, passphrase, or another credential.
 
@@ -91,7 +91,7 @@ Add a screenshot of `azure-pipelines.yml` open in the Azure Repos editor showing
 * `CopyFilesOverSSH@0` task
 * `SSH@0` verification task
 
-Add your screenshot here.
+![alt text](screenshots\Capture d'écran 2026-11-02 181632.png)
 
 > Ensure that no password, SSH private key, PAT, or AWS credential is visible.
 
@@ -115,7 +115,7 @@ Add a screenshot of the successful pipeline run and log summary showing:
 * Remote-verification step completed
 * Your Full Name visible in the pipeline output
 
-Add your screenshot here.
+![alt text](screenshots\Capture d'écran 2026-11-02 181632.png)
 
 ---
 
@@ -136,7 +136,7 @@ Add a browser screenshot showing:
 * Your Full Name
 * Updated website content after the automatic deployment
 
-Add your screenshot here.
+![alt text](screenshots\Capture d'écran 2026-11-02 181632.png)
 
 ## Final Website URL
 
@@ -144,7 +144,7 @@ Add your screenshot here.
 
 Replace the placeholder with your actual website URL:
 
-[Paste your final website URL here]
+https://lnkd.in/p/dTYXxVDR
 
 ---
 
@@ -152,7 +152,7 @@ Replace the placeholder with your actual website URL:
 
 Write a short summary of the completed CI/CD workflow.
 
-[Write your summary here.]
+I implemented a CI/CD workflow using Azure DevOps, AWS, Terraform, and Ansible. I imported and personalized the website repository, provisioned an EC2 instance, and configured Nginx and SSH access. I then created an Azure DevOps YAML pipeline using a self-hosted agent to automatically transfer website files to the EC2 instance and verify the deployment. Finally, I tested the website through the EC2 public IP address and verified automatic deployment after pushing a new commit.
 
 ---
 
@@ -167,11 +167,11 @@ Add a screenshot of your LinkedIn post containing:
 * Three to five lines describing the CI/CD workflow
 * A screenshot of the successful pipeline or deployed website
 
-Add your screenshot here.
+![alt text](screenshots\Capture d'écran 2026-11-02 181632.png)
 
 ## LinkedIn Post URL
 
-[Paste your public LinkedIn post URL here]
+https://lnkd.in/p/dTYXxVDR
 
 > Do not expose AWS credentials, SSH private keys, passwords, PATs, or other sensitive information.
 

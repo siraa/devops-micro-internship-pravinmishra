@@ -141,7 +141,7 @@ Week 01 → Success Mindset
 | 07 | Azure Cloud |  ✅ Completed  |  ✅ Completed  |https://www.linkedin.com/posts/taysir-ouaslati-9b6527a3_what-stayed-exactly-the-same-about-the-workflow-activity-7499141873119416320-bOtK?utm_source=share&utm_medium=member_desktop&rcm=ACoAABX4AtoB0tpceeC8Jnqozhzdi2ViZ02bFHk |https://medium.com/@westatou/what-stayed-exactly-the-same-about-the-workflow-ed05704985a5 |
 | 08 | Terraform |  ✅ Completed |  ✅ Completed |https://lnkd.in/p/d2NjMSwh | https://medium.com/@westatou/from-code-to-cloud-provisioning-infrastructure-with-terraform-aws-d03ab4de0c46 |
 | 09 | Ansible | ✅ Completed  | ✅ Completed  | https://lnkd.in/p/d_3UX4CR | https://medium.com/@westatou/hands-on-devops-project-deploying-the-epicbook-application-on-aws-with-terraform-ansible-95e75109e106 |
-| 10 | Azure DevOps (CI/CD) | ⬜ Not Started | ⏳ Pending | — | — |
+| 10 | Azure DevOps (CI/CD) | ✅ Completed | ✅ Completed | https://lnkd.in/p/dTYXxVDR | https://medium.com/@westatou/building-a-self-hosted-azure-devops-agent-on-ubuntu-%EF%B8%8F-d15d5a3836bd |
 | 11 | Docker | ⬜ Not Started | ⏳ Pending | — | — |
 | 12 | Kubernetes | ⬜ Not Started | ⏳ Pending | — | — |
 | 13 | Final Project | ⬜ Not Started | ⏳ Pending | — | — |
