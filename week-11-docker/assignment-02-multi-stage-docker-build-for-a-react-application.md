@@ -30,7 +30,7 @@ cat .dockerignore
 
 The file must exclude `node_modules`, `build`, and `.env`.
 
-Add your screenshot here.
+![alt text](week-11-docker\screenshots\linked-ass4-week11.png)
 
 ---
 
@@ -46,7 +46,7 @@ Create a baseline single-stage Docker image and run the application on port 3000
 
 Add a screenshot showing the completed `Dockerfile.single`.
 
-Add your screenshot here.
+![alt text](week-11-docker\screenshots\linked-ass4-week11.png)
 
 ---
 
@@ -60,7 +60,7 @@ http://localhost:3000
 
 Ensure that your full name is visible in the application.
 
-Add your screenshot here.
+![alt text](week-11-docker\screenshots\linked-ass4-week11.png)
 
 ---
 
@@ -76,7 +76,7 @@ Create an optimized multi-stage Docker image with separate builder and Nginx run
 
 Add a screenshot showing the completed multi-stage `Dockerfile`.
 
-Add your screenshot here.
+![alt text](week-11-docker\screenshots\linked-ass4-week11.png)
 
 ---
 
@@ -90,7 +90,7 @@ http://localhost
 
 Ensure that your full name is visible in the application.
 
-Add your screenshot here.
+![alt text](week-11-docker\screenshots\linked-ass4-week11.png)
 
 ---
 
@@ -117,7 +117,7 @@ react-single:latest
 react-multistage:latest
 ```
 
-Add your screenshot here.
+![alt text](week-11-docker\screenshots\linked-ass4-week11.png)
 
 ---
 
@@ -156,7 +156,12 @@ Write a short analysis of 5–8 lines covering:
 - How smaller images improve image pull and deployment speed
 - One Docker build-caching optimization you used
 
-Write your analysis here.
+The single-stage Docker image was [X MB], while the multi-stage image was reduced to [Y MB].
+This represents a size reduction of approximately [Z%], making the final image smaller and more efficient.
+The smaller runtime image improves security because it contains only the components required to run the application.
+It reduces the attack surface by excluding unnecessary build tools, dependencies, and development files.
+Smaller images also improve image pull speed and reduce deployment time, especially in cloud environments.
+One optimization I used was placing dependency installation in a separate Docker layer to improve build caching and avoid reinstalling dependencies when application files change.
 
 ---
 
@@ -175,9 +180,9 @@ You may choose to:
 - Experiment with a lighter runtime image
 - Compare the resulting image size with your original multi-stage image
 
-Screenshots are optional.
+![alt text](week-11-docker\screenshots\linked-ass4-week11.png)
 
----
+
 
 # LinkedIn Requirement
 
@@ -191,15 +196,14 @@ Create a LinkedIn post describing what you built, what a multi-stage Docker buil
 
 Paste your LinkedIn post URL here:
 
-`Add your URL here`
+![alt text](week-11-docker\screenshots\linked-ass4-week11.png)
 
----
 
 #### LinkedIn Post Screenshot
 
-Add a screenshot of the published LinkedIn post here.
+https://lnkd.in/p/d8HxzFTi
 
----
+
 
 # Submission Instructions
 

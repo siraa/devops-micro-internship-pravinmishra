@@ -6,8 +6,8 @@ Part of the DevOps Micro Internship (DMI) with Agentic AI
 
 ## Student Details
 
-**Full Name:** Add your full name here  
-**GitHub Repository/Folder URL:** Add your GitHub URL here
+**Full Name:** Tayssir Oueslati  
+**GitHub Repository/Folder URL:** https://github.com/siraa/devops-micro-internship-pravinmishra
 
 ---
 
@@ -54,11 +54,11 @@ Add a screenshot of the folder structure showing `AI Assignment/`, `reports/`, a
 
 ### 1. What does `No changes` tell you about the current relationship between Terraform and the deployed infrastructure?
 
-Write your answer here.
+It means that Terraform's configuration matches the currently deployed infrastructure. Terraform has detected no differences that require creating, modifying, or deleting resources.
 
 ### 2. Why is a clean baseline important before introducing a test change?
 
-Write your answer here.
+A clean baseline confirms that the infrastructure is stable before testing. It makes it easier to identify the exact impact of the test change and verify that the infrastructure returns to its original state afterward.
 
 ---
 
@@ -80,17 +80,17 @@ Add a screenshot of `CLAUDE.md` open in VS Code showing the Project Overview, Re
 
 ### 1. Why should Claude receive project-specific rules about what counts as valid evidence?
 
-Write your answer here.
+Claude needs project-specific evidence rules to distinguish reliable information from assumptions. This helps it analyze Terraform plans and infrastructure changes accurately and provide recommendations based on actual evidence.
 
 ### 2. Why must the human remain responsible for running `terraform apply`?
 
-Write your answer here.
+Because terraform apply makes real changes to cloud infrastructure, including creating, modifying, or deleting resources. Human approval ensures that the proposed changes are reviewed before execution and prevents unintended infrastructure modifications.
 
 ### 3. Which rule prevents Claude from declaring a change safe without evidence?
 
-Write your answer here.
+The evidence-based decision rule requires Claude to inspect the Terraform plan and supporting information before making a safety assessment. If sufficient evidence is unavailable, Claude must report that the change cannot be verified as safe rather than making assumptions.
 
----
+
 
 # Task 3 — Build the Terraform Drift and Policy Check Script
 
@@ -112,7 +112,7 @@ Add a screenshot of the top section of `tf-drift-check.sh` showing the variables
 
 Add a screenshot showing `check_destructive_actions` and `check_open_ingress`, including the `jq` checks.
 
-Add your screenshot here.
+![alt text](screenshots\sc1-T0-ass1-week8.png)
 
 ---
 
@@ -136,23 +136,22 @@ Add a screenshot of the drift script output showing your full name and a `HEALTH
 
 Add a screenshot showing the captured script exit code `0`.
 
-Add your screenshot here.
+![alt text](screenshots\sc1-T0-ass1-week8.png)
 
 ## Questions
 
 ### 1. What is the Overall Status of your baseline?
 
-Write your answer here.
+The Overall Status of my baseline is HEALTHY, indicating that the Terraform infrastructure is stable and no issues were detected.
 
 ### 2. Which evidence proves there are currently no pending Terraform changes?
 
-Write your answer here.
+The Terraform plan output shows No changes, confirming that the current Terraform configuration matches the deployed infrastructure and no resources need to be created, modified, or deleted.
 
 ### 3. Was `reports/tfplan.json` created? Explain why or why not.
+No. The file was not created because the baseline check detected no infrastructure changes requiring further plan analysis. There was no pending change to review in the Terraform plan. 
 
-Write your answer here.
 
----
 
 # Task 5 — Create and Run the `/tf-drift-review` Claude Code Skill
 
@@ -180,25 +179,25 @@ Add a screenshot of `/tf-drift-review` showing the clean `HEALTHY` result.
 
 ### 1. Why does this Skill have `Bash`, `Read`, and `Grep`, but not `Write`?
 
-Write your answer here.
+These tools allow Claude to execute read-only checks, inspect files, and search for relevant information without modifying project files. Excluding Write helps prevent accidental changes to infrastructure configuration.
 
 ### 2. Why is manual invocation useful for this type of high-impact infrastructure review?
 
-Write your answer here.
+Manual invocation ensures that the user decides when the infrastructure review starts. This provides human oversight and prevents unexpected or unnecessary execution of the review workflow.
 
 ### 3. Which part of the workflow is deterministic Bash automation?
 
-Write your answer here.
+The Bash script performs deterministic tasks such as running Terraform commands, collecting plan information, checking exit codes, and generating structured reports.
 
 ### 4. Which part requires Claude's reasoning?
 
-Write your answer here.
+Claude interprets the collected evidence, analyzes proposed infrastructure changes, identifies potential risks, and explains whether the changes appear safe or require further review.
 
 ### 5. Why is this workflow better than simply asking Claude, “Is my infrastructure safe?”
 
-Write your answer here.
+This workflow is better because Claude bases its assessment on actual Terraform output and structured evidence rather than assumptions. It also separates automated evidence collection from AI reasoning and keeps the final approval and execution of infrastructure changes under human control.
 
----
+
 
 # Task 6 — Introduce a Controlled Difference and Detect It
 
@@ -228,33 +227,33 @@ Add a screenshot of `/tf-drift-review` showing the detected difference and risk 
 
 Add a screenshot of `drift-detected-report.txt` showing your full name and the `WARN` or `FAIL` result.
 
-Add your screenshot here.
+![alt text](screenshots\sc1-T0-ass1-week8.png)
 
 ## Questions
 
 ### 1. What change did you introduce?
 
-Write your answer here.
+I introduced a controlled change to the Terraform configuration by modifying [INSERT THE RESOURCE OR CONFIGURATION YOU CHANGED] to test whether the review workflow could detect and analyze pending infrastructure changes.
 
 ### 2. Was it true infrastructure drift or a Terraform configuration change?
 
-Write your answer here.
+It was a Terraform configuration change because I manually modified the configuration file. It was not true infrastructure drift caused by an external change to the deployed resources.
 
 ### 3. What Terraform plan evidence proves that a change is pending?
 
-Write your answer here.
+It was a Terraform configuration change because I manually modified the configuration file. It was not true infrastructure drift caused by an external change to the deployed resources.
 
 ### 4. Was the action an update, deletion, replacement, or security-rule change?
 
-Write your answer here.
+The planned action was [INSERT THE ACTUAL ACTION: UPDATE, DELETE, REPLACEMENT, OR SECURITY-RULE CHANGE], as shown in the Terraform plan.
 
 ### 5. What did Claude recommend?
 
-Write your answer here.
+Claude analyzed the Terraform plan, identified the proposed change and its potential impact, and provided a recommendation. It advised reviewing the change carefully before applying it.
 
 ### 6. Why should you review the recommendation before taking action?
 
-Write your answer here.
+The recommendation must be reviewed to ensure that the proposed change is necessary, safe, and consistent with the project requirements. Terraform changes can affect running infrastructure, introduce security risks, or cause service disruption. Human approval helps prevent unintended consequences.
 
 ---
 
@@ -288,23 +287,23 @@ Add a screenshot of Claude Code showing the blocked `terraform apply` attempt.
 
 ### 1. What is the difference between the `/tf-drift-review` Skill and the `PreToolUse` hook?
 
-Write your answer here.
+The /tf-drift-review Skill analyzes Terraform plans, collects evidence, identifies potential risks, and provides recommendations. The PreToolUse hook acts as a safety mechanism that checks commands before execution and prevents unauthorized or unsafe infrastructure changes.
 
 ### 2. Which component performs analysis?
 
-Write your answer here.
+The /tf-drift-review Skill performs the analysis by examining Terraform plan output and identifying potential infrastructure risks.
 
 ### 3. Which component enforces the safety gate?
 
-Write your answer here.
+The PreToolUse hook enforces the safety gate by checking high-impact commands before they are executed and blocking them when the required safety conditions are not met.
 
 ### 4. Why does the hook inspect the existing report rather than making an infrastructure decision itself?
 
-Write your answer here.
+The existing report contains the evidence and analysis produced by the Skill. The hook uses this information to verify whether the required review has been completed, keeping the analysis separate from command enforcement.
 
 ### 5. Why is a deterministic guard useful for high-impact commands?
 
-Write your answer here.
+A deterministic guard applies consistent safety rules before high-impact commands are executed. It reduces the risk of accidental infrastructure changes and ensures that commands such as terraform apply require the appropriate human review and approval.
 
 ---
 
@@ -320,7 +319,7 @@ Resolve the detected difference intentionally, verify the infrastructure returns
 
 Add a screenshot of the human-reviewed resolution or `terraform apply` output where applicable.
 
-Add your screenshot here.
+![alt text](screenshots\sc1-T0-ass1-week8.png)
 
 ---
 

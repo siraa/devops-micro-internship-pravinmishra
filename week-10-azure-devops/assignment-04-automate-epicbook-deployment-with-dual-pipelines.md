@@ -234,7 +234,7 @@ Your post must include:
 
 > Do not expose credentials, SSH keys, database passwords, subscription details, or other sensitive information.
 
----
+
 
 # Submission Instructions
 

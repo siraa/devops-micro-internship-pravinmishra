@@ -191,7 +191,7 @@ Add a screenshot showing the private internal load balancer.
 
 Add a screenshot showing healthy target groups or backend pools.
 
-Add your screenshot here.
+![alt text](screenshots\sc1-T0-ass1-week8.png)
 
 
 ---
@@ -216,7 +216,7 @@ Add a screenshot showing the managed MySQL database deployment.
 
 Add a screenshot showing the Multi-AZ or high-availability configuration.
 
-Add your screenshot here.
+![alt text](screenshots\sc1-T0-ass1-week8.png)
 
 ---
 
@@ -224,7 +224,7 @@ Add your screenshot here.
 
 Add a screenshot showing the read replica configuration.
 
-Add your screenshot here.
+![alt text](screenshots\sc1-T0-ass1-week8.png)
 
 ---
 
@@ -232,7 +232,7 @@ Add your screenshot here.
 
 Add a screenshot showing that the database is private and accepts MySQL traffic only from the Application Tier.
 
-Add your screenshot here.
+![alt text](screenshots\sc1-T0-ass1-week8.png)
 
 ---
 
@@ -248,7 +248,7 @@ Validate the Terraform configuration, review the execution plan using both Agent
 
 Add a screenshot showing successful `terraform validate` output.
 
-Add your screenshot here.
+![alt text](screenshots\sc1-T0-ass1-week8.png)
 
 ---
 
@@ -256,7 +256,7 @@ Add your screenshot here.
 
 Add a screenshot showing the Terraform plan output.
 
-Add your screenshot here.
+![alt text](screenshots\sc1-T0-ass1-week8.png)
 
 ---
 
@@ -264,7 +264,7 @@ Add your screenshot here.
 
 Add a screenshot showing successful `terraform apply` completion.
 
-Add your screenshot here.
+![alt text](screenshots\sc1-T0-ass1-week8.png)
 
 ---
 
@@ -280,7 +280,7 @@ Deploy and configure the Book Review App across the Web, Application, and Databa
 
 Add a screenshot showing the Book Review App homepage through the public endpoint.
 
-Add your screenshot here.
+![alt text](screenshots\sc1-T0-ass1-week8.png)
 
 ---
 
@@ -288,7 +288,7 @@ Add your screenshot here.
 
 Add a screenshot showing successful login or authentication.
 
-Add your screenshot here.
+![alt text](screenshots\sc1-T0-ass1-week8.png)
 
 ---
 
@@ -296,7 +296,7 @@ Add your screenshot here.
 
 Add a screenshot showing the book listing or book details.
 
-Add your screenshot here.
+![alt text](screenshots\sc1-T0-ass1-week8.png)
 
 ---
 
@@ -304,7 +304,7 @@ Add your screenshot here.
 
 Add a screenshot showing the review functionality working successfully.
 
-Add your screenshot here.
+![alt text](screenshots\sc1-T0-ass1-week8.png)
 
 ---
 
@@ -312,7 +312,7 @@ Add your screenshot here.
 
 Add a screenshot showing that the backend or API is working successfully.
 
-Add your screenshot here.
+![alt text](screenshots\sc1-T0-ass1-week8.png)
 
 ---
 
@@ -320,7 +320,7 @@ Add your screenshot here.
 
 Add a screenshot showing successful database reads and writes.
 
-Add your screenshot here.
+![alt text](screenshots\sc1-T0-ass1-week8.png)
 
 ## Public Application URL
 
@@ -342,7 +342,7 @@ You do not need to submit your complete Claude Code conversation history. Includ
 
 Add a screenshot showing one useful example of AI-assisted Terraform generation or improvement.
 
-Add your screenshot here.
+![alt text](screenshots\sc1-T0-ass1-week8.png)
 
 ---
 
@@ -350,7 +350,7 @@ Add your screenshot here.
 
 Add a screenshot showing one structured architecture or security review result.
 
-Add your screenshot here.
+![alt text](screenshots\sc1-T0-ass1-week8.png)
 
 ---
 
@@ -358,7 +358,7 @@ Add your screenshot here.
 
 Add a screenshot showing one AI-assisted troubleshooting interaction based on collected evidence.
 
-Add your screenshot here.
+![alt text](screenshots\sc1-T0-ass1-week8.png)
 
 ---
 
@@ -480,7 +480,7 @@ Write the post in your own words, include at least one project image or other pr
 
 ## LinkedIn Post URL
 
-**LinkedIn Post URL:** Add your LinkedIn post URL here
+**LinkedIn Post URL:** https://lnkd.in/p/d2NjMSwh
 
 ---
 

@@ -22,9 +22,9 @@ Review the EpicBook repository and design the intended application architecture.
 
 Add a terminal screenshot showing the EpicBook project structure after cloning the repository.
 
-Add your screenshot here.
+![alt text](week-11-docker\screenshots\Capture d'écran 2026-11-01 172921.png)
 
----
+
 
 #### Screenshot 2 — Architecture Diagram
 
@@ -39,9 +39,9 @@ Add a screenshot of your architecture diagram showing:
 - Public and private ports
 - Persistent database storage
 
-Add your full name inside the diagram or as a clear caption below it.
+![alt text](week-11-docker\screenshots\Capture d'écran 2026-11-01 172921.png)
 
-Add your screenshot here.
+![alt text](week-11-docker\screenshots\Capture d'écran 2026-11-01 172921.png)
 
 ---
 
@@ -55,7 +55,7 @@ docs/02-env-and-ports.md
 
 It must document environment-variable names, internal ports, persistent-data details, and the health-check method. Do not expose real credentials or values.
 
-Add your screenshot here.
+![alt text](week-11-docker\screenshots\Capture d'écran 2026-11-01 172921.png)
 
 ---
 
@@ -77,9 +77,9 @@ Add a screenshot showing `backend/Dockerfile`, including:
 - Internal backend port
 - Non-root user configuration
 
-Add your screenshot here.
+![alt text](week-11-docker\screenshots\Capture d'écran 2026-11-01 172921.png)
 
----
+
 
 #### Screenshot 5 — Frontend Dockerfile
 
@@ -88,7 +88,7 @@ Add a screenshot showing `frontend/Dockerfile`, including:
 - Nginx runtime image
 - Static frontend files copied to the Nginx web root
 
-Add your screenshot here.
+![alt text](week-11-docker\screenshots\Capture d'écran 2026-11-01 172921.png)
 
 ---
 
@@ -101,9 +101,8 @@ backend/.dockerignore
 frontend/.dockerignore
 ```
 
-Add your screenshot here.
+![alt text](week-11-docker\screenshots\Capture d'écran 2026-11-01 172921.png)
 
----
 
 #### Screenshot 7 — Docker Image Builds and Size Comparison
 
@@ -115,7 +114,7 @@ Add a terminal screenshot showing successful builds of:
 
 The screenshot must also show the baseline and optimized backend image-size comparison.
 
-Add your screenshot here.
+![alt text](week-11-docker\screenshots\Capture d'écran 2026-11-01 172921.png)
 
 ---
 
@@ -123,7 +122,7 @@ Add your screenshot here.
 
 Add a terminal screenshot showing the optimized backend container running as a non-root user.
 
-Add your screenshot here.
+![alt text](week-11-docker\screenshots\Capture d'écran 2026-11-01 172921.png)
 
 ---
 
@@ -136,7 +135,11 @@ Write a short note covering:
 - One Docker layer-caching optimization used
 - The security benefit of running the backend as a non-root user
 
-Write your note here.
+This represents a reduction of approximately [Z%], resulting in a smaller and more efficient image.
+One Docker layer-caching optimization used was copying the dependency files and installing dependencies before copying the application source code.
+This allows Docker to reuse the dependency layer when only application files change, reducing rebuild time.
+Running the backend as a non-root user improves security by limiting the privileges available to the application process.
+If the application is compromised, the attacker has fewer permissions to modify system files or perform privileged operations.
 
 ---
 
@@ -159,7 +162,7 @@ backend
 database
 ```
 
-Add your screenshot here.
+![alt text](week-11-docker\screenshots\Capture d'écran 2026-11-01 172921.png)
 
 ---
 
@@ -171,15 +174,14 @@ Add a screenshot showing:
 - `back-tier` network
 - `db_data` named volume
 
-Add your screenshot here.
+![alt text](week-11-docker\screenshots\Capture d'écran 2026-11-01 172921.png)
 
 ---
 
 #### Screenshot 11 — Docker Compose Validation
 
 Add a terminal screenshot showing successful Docker Compose validation without exposing environment-variable values or secrets.
-
-Add your screenshot here.
+![alt text](week-11-docker\screenshots\Capture d'écran 2026-11-01 172921.png)
 
 ---
 
@@ -195,7 +197,7 @@ Configure health checks and ensure services start only after their dependencies 
 
 Add a screenshot showing the backend application configuration for the `/health` endpoint.
 
-Add your screenshot here.
+![alt text](week-11-docker\screenshots\Capture d'écran 2026-11-01 172921.png)
 
 ---
 
@@ -203,7 +205,7 @@ Add your screenshot here.
 
 Add a screenshot showing `docker-compose.yml` with health checks for MySQL and the backend.
 
-Add your screenshot here.
+![alt text](week-11-docker\screenshots\Capture d'écran 2026-11-01 172921.png)
 
 ---
 
@@ -215,7 +217,7 @@ Add a screenshot showing:
 - Reverse-proxy health check
 - `depends_on` conditions using `service_healthy`
 
-Add your screenshot here.
+![alt text](week-11-docker\screenshots\Capture d'écran 2026-11-01 172921.png)
 
 ---
 
@@ -223,7 +225,7 @@ Add your screenshot here.
 
 Add a terminal screenshot showing Docker Compose service status. The database, backend, frontend, and reverse proxy must be running successfully.
 
-Add your screenshot here.
+![alt text](week-11-docker\screenshots\Capture d'écran 2026-11-01 172921.png)
 
 ---
 
@@ -231,7 +233,7 @@ Add your screenshot here.
 
 Add a terminal screenshot showing a successful response from the public application health endpoint through the reverse proxy.
 
-Add your screenshot here.
+![alt text](week-11-docker\screenshots\Capture d'écran 2026-11-01 172921.png)
 
 ---
 
@@ -245,7 +247,7 @@ docs/03-healthchecks-and-depends-on.md
 
 Explain the health-check method for each service and the startup dependency order.
 
-Add your screenshot here.
+![alt text](week-11-docker\screenshots\Capture d'écran 2026-11-01 172921.png)
 
 ---
 
@@ -268,7 +270,7 @@ It must show routes for:
 - API requests
 - Health endpoint
 
-Add your screenshot here.
+![alt text](week-11-docker\screenshots\Capture d'écran 2026-11-01 172921.png)
 
 ---
 
@@ -276,7 +278,7 @@ Add your screenshot here.
 
 Add a screenshot of `docker-compose.yml` showing that only the `reverse-proxy` service publishes port 80.
 
-Add your screenshot here.
+![alt text](week-11-docker\screenshots\Capture d'écran 2026-11-01 172921.png)
 
 ---
 
@@ -289,7 +291,7 @@ Add a terminal screenshot showing successful requests through the selected rever
 - One static asset
 - Health endpoint
 
-Add your screenshot here.
+![alt text](week-11-docker\screenshots\Capture d'écran 2026-11-01 172921.png)
 
 ---
 
@@ -297,9 +299,9 @@ Add your screenshot here.
 
 Add a browser screenshot showing the EpicBook application loaded through the VM public IP address.
 
-Add your full name as a clear caption below the screenshot.
+![alt text](week-11-docker\screenshots\Capture d'écran 2026-11-01 172921.png)
 
-Add your screenshot here.
+![alt text](week-11-docker\screenshots\Capture d'écran 2026-11-01 172921.png)
 
 ---
 
@@ -313,7 +315,7 @@ docs/04-proxy-routing-and-cors.md
 
 Explain the proxy routes and state whether CORS was required and why.
 
-Add your screenshot here.
+![alt text](week-11-docker\screenshots\Capture d'écran 2026-11-01 172921.png)
 
 ---
 
@@ -329,7 +331,7 @@ Verify MySQL persistence and perform a controlled backup and restore drill.
 
 Add a terminal screenshot showing the `db_data` named volume and its MySQL mount configuration.
 
-Add your screenshot here.
+![alt text](week-11-docker\screenshots\Capture d'écran 2026-11-01 172921.png)
 
 ---
 
@@ -337,7 +339,7 @@ Add your screenshot here.
 
 Add a terminal screenshot showing the selected test data before the backup and restore drill.
 
-Add your screenshot here.
+![alt text](week-11-docker\screenshots\Capture d'écran 2026-11-01 172921.png)
 
 ---
 
@@ -345,7 +347,7 @@ Add your screenshot here.
 
 Add a terminal screenshot showing successful backup creation and the backup file stored in the host backup directory.
 
-Add your screenshot here.
+![alt text](week-11-docker\screenshots\Capture d'écran 2026-11-01 172921.png)
 
 ---
 
@@ -353,7 +355,7 @@ Add your screenshot here.
 
 Add a terminal screenshot showing that the selected test record was removed during the controlled data-loss test.
 
-Add your screenshot here.
+![alt text](week-11-docker\screenshots\Capture d'écran 2026-11-01 172921.png)
 
 ---
 
@@ -361,7 +363,7 @@ Add your screenshot here.
 
 Add a terminal screenshot showing successful restore and verification that the deleted test record is available again.
 
-Add your screenshot here.
+![alt text](week-11-docker\screenshots\Capture d'écran 2026-11-01 172921.png)
 
 ---
 
@@ -371,7 +373,7 @@ Add a terminal screenshot showing that database data remains available after a n
 
 Do not use `docker compose down -v`.
 
-Add your screenshot here.
+![alt text](week-11-docker\screenshots\Capture d'écran 2026-11-01 172921.png)
 
 ---
 
@@ -385,7 +387,7 @@ docs/05-persistence-and-backup.md
 
 Include the backup plan and restore procedure.
 
-Add your screenshot here.
+![alt text](week-11-docker\screenshots\Capture d'écran 2026-11-01 172921.png)
 
 ---
 
@@ -405,7 +407,7 @@ Add a screenshot showing:
 - Proxy log format
 - Docker Compose host log-directory bind mount
 
-Add your screenshot here.
+![alt text](week-11-docker\screenshots\Capture d'écran 2026-11-01 172921.png)
 
 ---
 
@@ -416,7 +418,7 @@ Add a terminal screenshot showing:
 - Selected reverse-proxy logs available from the host directory after a proxy restart
 - Backend logs displayed through Docker Compose
 
-Add your screenshot here.
+![alt text](week-11-docker\screenshots\Capture d'écran 2026-11-01 172921.png)
 
 ---
 
@@ -430,7 +432,13 @@ Write a short note covering:
 - Whether JSON or standard text logs were used
 - Why passwords, tokens, headers, and database connection strings must not appear in logs
 
-Write your note here.
+The selected reverse proxy was [Nginx / Traefik / other], which forwards incoming requests to the backend service.
+The host path used to store reverse-proxy logs was [insert your host log path].
+Backend logs can be viewed using docker compose logs backend or docker logs <container_name>.
+The logging format used was [JSON / standard text], making it possible to monitor requests and troubleshoot application issues.
+Passwords, access tokens, authorization headers, and database connection strings must never appear in logs because they contain sensitive information.
+Exposing these details could allow unauthorized access to the application, user accounts, or database.
+Logs should contain only the information needed for monitoring and debugging, without revealing secrets.
 
 ---
 
@@ -450,7 +458,7 @@ Add a cloud-console screenshot showing:
 - SSH port 22 restricted to your IP address
 - HTTP port 80 allowed from Anywhere
 
-Add your screenshot here.
+![alt text](week-11-docker\screenshots\Capture d'écran 2026-11-01 172921.png)
 
 ---
 
@@ -462,7 +470,7 @@ Add a VM terminal screenshot showing:
 - Successful public health or API response
 - No published database, frontend, or backend ports
 
-Add your screenshot here.
+![alt text](week-11-docker\screenshots\Capture d'écran 2026-11-01 172921.png)
 
 ---
 
@@ -472,7 +480,7 @@ Add a browser screenshot showing the EpicBook application loaded through the VM 
 
 Add your full name as a clear caption below the screenshot.
 
-Add your screenshot here.
+![alt text](week-11-docker\screenshots\Capture d'écran 2026-11-01 172921.png)
 
 ---
 
@@ -502,7 +510,7 @@ Optionally automate image build, image push, and deployment through GitHub Actio
 
 Add a screenshot showing a successful pipeline run with build, image push, deployment, and verification stages.
 
-Add your screenshot here.
+![alt text](week-11-docker\screenshots\Capture d'écran 2026-11-01 172921.png)
 
 ---
 
@@ -537,7 +545,7 @@ Add a terminal screenshot showing:
 - Backend restart
 - Successful health-check recovery
 
-Add your screenshot here.
+![alt text](week-11-docker\screenshots\Capture d'écran 2026-11-01 172921.png)
 
 ---
 
@@ -550,7 +558,7 @@ Add a terminal screenshot showing:
 - Database restart
 - Successful application recovery
 
-Add your screenshot here.
+![alt text](week-11-docker\screenshots\Capture d'écran 2026-11-01 172921.png)
 
 ---
 
@@ -571,7 +579,7 @@ Write your note here.
 
 # Final Public Application URL
 
-**EpicBook URL:** `http://<VM_PUBLIC_IP>`
+**EpicBook URL:** http://18.153.95.88/
 
 Replace the placeholder with your working public URL.
 
@@ -579,7 +587,7 @@ Replace the placeholder with your working public URL.
 
 # GitHub Repository URL
 
-**Your Fork or Repository URL:** `Add your GitHub repository URL here`
+**Your Fork or Repository URL:** https://github.com/siraa/devops-micro-internship-pravinmishra
 
 ---
 
@@ -598,13 +606,14 @@ Your post must include:
 
 ### Evidence
 
-**LinkedIn Post URL:** `Add your LinkedIn post URL here`
+**LinkedIn Post URL:** https://lnkd.in/p/d8HxzFTi
 
 #### LinkedIn Post Screenshot
 
 Add a screenshot of the published LinkedIn post showing the text body and deployment verification image.
 
----
+![alt text](week-11-docker\screenshots\linked-ass4-week11.png)
+
 
 # Submission Checklist
 

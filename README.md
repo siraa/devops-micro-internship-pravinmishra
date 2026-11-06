@@ -142,7 +142,7 @@ Week 01 → Success Mindset
 | 08 | Terraform |  ✅ Completed |  ✅ Completed |https://lnkd.in/p/d2NjMSwh | https://medium.com/@westatou/from-code-to-cloud-provisioning-infrastructure-with-terraform-aws-d03ab4de0c46 |
 | 09 | Ansible | ✅ Completed  | ✅ Completed  | https://lnkd.in/p/d_3UX4CR | https://medium.com/@westatou/hands-on-devops-project-deploying-the-epicbook-application-on-aws-with-terraform-ansible-95e75109e106 |
 | 10 | Azure DevOps (CI/CD) | ✅ Completed | ✅ Completed | https://lnkd.in/p/dTYXxVDR | https://medium.com/@westatou/building-a-self-hosted-azure-devops-agent-on-ubuntu-%EF%B8%8F-d15d5a3836bd |
-| 11 | Docker | ⬜ Not Started | ⏳ Pending | — | — |
+| 11 | Docker | ✅ Completed | ✅ Completed | https://lnkd.in/p/d8HxzFTi | https://medium.com/@westatou/deploying-a-static-website-on-a-cloud-vm-using-docker-%EF%B8%8F-4cfb1ba1adb0 |
 | 12 | Kubernetes | ⬜ Not Started | ⏳ Pending | — | — |
 | 13 | Final Project | ⬜ Not Started | ⏳ Pending | — | — |
 

@@ -312,10 +312,9 @@ A successful pipeline run confirms that the deployment process completed, but a 
 
 Automatic access to these actions could allow an incorrect fix to be committed, unauthorized changes to reach the main branch, or an unsafe deployment to be triggered. Keeping a human approval step ensures that recovery actions are reviewed and controlled.
 
----
 
 # LinkedIn Post — Mandatory
-
+https://lnkd.in/p/dTYXxVDR
 ## LinkedIn Post URL
 
 https://lnkd.in/p/dTYXxVDR

@@ -26,7 +26,7 @@ Add a screenshot of the terminal showing successful completion of:
 docker pull nginx:alpine
 ```
 
-Add your screenshot here.
+![alt text](week-11-docker\screenshots\Capture d'écran 2026-11-01 172921.png)
 
 ---
 
@@ -38,7 +38,7 @@ Add a screenshot of the terminal showing the created host directory:
 $HOME/nginx-logs
 ```
 
-Add your screenshot here.
+![alt text](week-11-docker\screenshots\Capture d'écran 2026-11-01 172921.png)
 
 ---
 
@@ -56,7 +56,7 @@ The output must show the `myweb` container with:
 0.0.0.0:80->80/tcp
 ```
 
-Add your screenshot here.
+![alt text](week-11-docker\screenshots\Capture d'écran 2026-11-01 172921.png)
 
 ---
 
@@ -70,7 +70,7 @@ http://<YOUR-VM-PUBLIC-IP>
 
 Ensure that the VM public IP is visible in the address bar. Add your full name as a clear caption directly below the screenshot.
 
-Add your screenshot here.
+![alt text](week-11-docker\screenshots\Capture d'écran 2026-11-01 172921.png)
 
 ---
 
@@ -84,7 +84,7 @@ $HOME/nginx-logs
 
 The output must show `access.log`, `error.log`, and an access-log entry created when you opened the Nginx page.
 
-Add your screenshot here.
+![alt text](week-11-docker\screenshots\Capture d'écran 2026-11-01 172921.png)
 
 ---
 
@@ -97,7 +97,7 @@ docker stop myweb
 docker rm myweb
 ```
 
-Add your screenshot here.
+![alt text](week-11-docker\screenshots\Capture d'écran 2026-11-01 172921.png)
 
 ---
 
@@ -111,7 +111,7 @@ $HOME/nginx-logs
 
 The access log must retain its content after the container has been removed.
 
-Add your screenshot here.
+![alt text](week-11-docker\screenshots\Capture d'écran 2026-11-01 172921.png)
 
 ---
 
@@ -127,7 +127,7 @@ Deploy backend and frontend containers that share data through a named Docker Vo
 
 Add a screenshot of the terminal showing the `two-tier-app` project structure, including separate `backend` and `frontend` directories with a `Dockerfile` and `index.js` file in each.
 
-Add your screenshot here.
+![alt text](week-11-docker\screenshots\Capture d'écran 2026-11-01 172921.png)
 
 ---
 
@@ -139,7 +139,7 @@ Add a screenshot of the terminal showing `mynetwork` in:
 docker network ls
 ```
 
-Add your screenshot here.
+![alt text](week-11-docker\screenshots\Capture d'écran 2026-11-01 172921.png)
 
 ---
 
@@ -151,7 +151,7 @@ Add a screenshot of the terminal showing `shared-data` in:
 docker volume ls
 ```
 
-Add your screenshot here.
+![alt text](week-11-docker\screenshots\Capture d'écran 2026-11-01 172921.png)
 
 ---
 
@@ -159,7 +159,7 @@ Add your screenshot here.
 
 Add a screenshot of the terminal showing the completed backend `Dockerfile`.
 
-Add your screenshot here.
+![alt text](week-11-docker\screenshots\Capture d'écran 2026-11-01 172921.png)
 
 ---
 
@@ -167,7 +167,7 @@ Add your screenshot here.
 
 Add a screenshot of the terminal showing successful completion of the `backend-app:latest` image build.
 
-Add your screenshot here.
+![alt text](week-11-docker\screenshots\Capture d'écran 2026-11-01 172921.png)
 
 ---
 
@@ -181,7 +181,7 @@ docker ps
 
 The output must show the running `backend` container.
 
-Add your screenshot here.
+![alt text](week-11-docker\screenshots\Capture d'écran 2026-11-01 172921.png)
 
 ---
 
@@ -189,7 +189,7 @@ Add your screenshot here.
 
 Add a screenshot of the terminal showing the completed frontend `Dockerfile`.
 
-Add your screenshot here.
+![alt text](week-11-docker\screenshots\Capture d'écran 2026-11-01 172921.png)
 
 ---
 
@@ -197,7 +197,7 @@ Add your screenshot here.
 
 Add a screenshot of the terminal showing successful completion of the `frontend-app:latest` image build.
 
-Add your screenshot here.
+![alt text](week-11-docker\screenshots\Capture d'écran 2026-11-01 172921.png)
 
 ---
 
@@ -215,7 +215,7 @@ The output must show both `backend` and `frontend` containers running. Only `fro
 0.0.0.0:80->80/tcp
 ```
 
-Add your screenshot here.
+![alt text](week-11-docker\screenshots\Capture d'écran 2026-11-01 172921.png)
 
 ---
 
@@ -229,7 +229,7 @@ The output must include:
 Data written: Hello from Backend!
 ```
 
-Add your screenshot here.
+![alt text](week-11-docker\screenshots\Capture d'écran 2026-11-01 172921.png)
 
 ---
 
@@ -243,7 +243,7 @@ Hello from Backend!
 
 Add your full name as a clear caption directly below the screenshot.
 
-Add your screenshot here.
+![alt text](week-11-docker\screenshots\Capture d'écran 2026-11-01 172921.png)
 
 ---
 
@@ -257,7 +257,7 @@ Test Data 1
 
 Add your full name as a clear caption directly below the screenshot.
 
-Add your screenshot here.
+![alt text](week-11-docker\screenshots\Capture d'écran 2026-11-01 172921.png)
 
 ---
 
@@ -271,7 +271,7 @@ Test Data 2 - New Update
 
 Add your full name as a clear caption directly below the screenshot.
 
-Add your screenshot here.
+![alt text](week-11-docker\screenshots\Capture d'écran 2026-11-01 172921.png)
 
 ---
 
@@ -279,7 +279,7 @@ Add your screenshot here.
 
 Add a screenshot of the terminal showing the `frontend` and `backend` containers removed and recreated using the same `shared-data` Docker Volume.
 
-Add your screenshot here.
+![alt text](week-11-docker\screenshots\Capture d'écran 2026-11-01 172921.png)
 
 ---
 
@@ -295,7 +295,7 @@ This proves that the `shared-data` Docker Volume outlived both application conta
 
 Add your full name as a clear caption directly below the screenshot.
 
-Add your screenshot here.
+![alt text](week-11-docker\screenshots\Capture d'écran 2026-11-01 172921.png)
 
 ---
 
@@ -308,13 +308,19 @@ Write a short explanation covering:
 - How Task 2 proved Docker Volume persistence
 - Why Docker Volumes are commonly used for application data
 
-Write your explanation here.
+Bind Mount vs. Docker Volume: A Bind Mount links a container directory to a specific path on the host machine. A Docker Volume is managed by Docker and stored in its dedicated storage area, independently of the container's lifecycle.
+
+Task 1 – Bind Mount persistence: The test proved persistence by creating or modifying a file inside the container and verifying that the change was also visible on the host. The data remained available even after the container was removed and recreated.
+
+Task 2 – Docker Volume persistence: The test demonstrated that data stored in a Docker Volume remained available after removing and recreating the container, because the volume exists independently of the container.
+
+Why Docker Volumes are commonly used: Volumes provide reliable storage for application data, databases, and other persistent files. They are managed by Docker, can be reused by multiple containers, and make it easier to preserve data when containers are updated, replaced, or removed.
 
 ---
 
 # Public Application URL
 
-**Application URL:** `Add your VM public IP URL here`
+**Application URL:** http://18.153.95.88/
 
 ---
 
@@ -330,13 +336,13 @@ Create a LinkedIn post about Docker Volumes and Bind Mounts, including one diffe
 
 Paste your LinkedIn post URL here:
 
-`Add your URL here`
+https://lnkd.in/p/d8HxzFTi
 
----
+
 
 #### LinkedIn Post Screenshot
 
-Add a screenshot of the published LinkedIn post here. Include a screenshot of the application displaying shared data.
+![alt text](week-11-docker\screenshots\linked-ass4-week11.png)
 
 ---
 
