@@ -524,7 +524,15 @@ Write a short note covering:
 - Deployment trigger
 - Manual approval or secret-handling approach
 
-Write your note here.
+CI/CD platform: [Insert the platform used, such as GitHub Actions, GitLab CI, or Azure DevOps].
+
+Image-tagging method: Docker images are tagged using a version number or Git commit SHA to identify each build and ensure traceable deployments.
+
+Container registry: [Insert the registry used, such as Docker Hub, GitHub Container Registry, or Azure Container Registry].
+
+Deployment trigger: Deployment is triggered automatically when changes are pushed or merged into the configured deployment branch.
+
+Manual approval and secrets: Sensitive deployment credentials are stored securely as CI/CD secrets or environment variables rather than being hardcoded. Manual approval can be required before deploying to production to ensure changes are reviewed.
 
 ---
 
@@ -573,7 +581,61 @@ Write a short operations runbook covering:
 - What to check when the application returns an error
 - Results of backend and database reliability tests
 
-Write your note here.
+Safe Restart Procedure
+
+Check the application status before restarting services.
+
+Restart the reverse proxy, frontend, backend, and database using Docker Compose: docker compose restart <service_name>.
+
+Restart the database carefully to avoid interrupting active transactions.
+
+Verify that all containers are running and the application is accessible after the restart.
+
+2. Backup and Restore
+
+Create regular database backups using mysqldump and store them in a secure location.
+
+To restore a backup, import the SQL file using mysql after verifying the target database.
+
+Keep backups protected and periodically test the restore procedure.
+
+3. Secret Rotation
+
+Update passwords, API tokens, and database credentials regularly or immediately if they are exposed.
+
+Store new secrets securely in environment variables or a secrets manager.
+
+Update the affected services and restart them when necessary.
+
+Verify that authentication and database connections still work.
+
+4. Database Recovery
+
+Check database container status and logs first.
+
+Verify database connectivity, credentials, and available storage.
+
+If the database data is corrupted, restore it from the latest valid backup.
+
+Confirm that the application can connect and read/write data after recovery.
+
+5. Application Error Troubleshooting
+
+Check container status with docker compose ps.
+
+Inspect logs using docker compose logs <service_name>.
+
+Verify reverse-proxy configuration, network connectivity, environment variables, and database availability.
+
+Check HTTP responses and confirm that all required services are healthy.
+
+6. Reliability Test Results
+
+Backend reliability test: [Insert actual result, such as successful responses or test failures].
+
+Database reliability test: [Insert actual result, such as successful connections and data persistence after container recreation].
+
+Record any errors, recovery actions, and verification results to document system reliability.
 
 ---
 

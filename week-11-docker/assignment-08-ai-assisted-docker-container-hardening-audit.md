@@ -33,7 +33,7 @@ docker-audit.sh
 SKILL.md
 ```
 
-Add your screenshot here.
+![alt text](week-11-docker\screenshots\Capture d'écran 2026-11-01 172921.png)
 
 ---
 
@@ -49,7 +49,7 @@ Add the supplied `docker-audit` skill to Claude Code and confirm that it is avai
 
 Add a screenshot of Claude Code showing `docker-audit` in the available skill list.
 
-Add your screenshot here.
+![alt text](week-11-docker\screenshots\Capture d'écran 2026-11-01 172921.png)
 
 ---
 
@@ -70,7 +70,7 @@ Add a terminal screenshot showing:
 - Your full name
 - The usage message displayed when the script runs without a container name
 
-Add your screenshot here.
+![alt text](week-11-docker\screenshots\Capture d'écran 2026-11-01 172921.png)
 
 ---
 
@@ -90,7 +90,7 @@ Add a terminal screenshot showing:
 - `docker ps`
 - The audit command using the selected target container name
 
-Add your screenshot here.
+![alt text](week-11-docker\screenshots\Capture d'écran 2026-11-01 172921.png)
 
 ---
 
@@ -98,7 +98,7 @@ Add your screenshot here.
 
 Add a terminal screenshot showing the initial Docker audit results.
 
-Add your screenshot here.
+![alt text](week-11-docker\screenshots\Capture d'écran 2026-11-01 172921.png)
 
 ---
 
@@ -119,7 +119,7 @@ Add a Claude Code screenshot showing:
 - Recommended manual fix
 - Verification method
 
-Add your screenshot here.
+![alt text](week-11-docker\screenshots\Capture d'écran 2026-11-01 172921.png)
 
 ---
 
@@ -135,7 +135,7 @@ Manually fix one WARN or FAIL finding from the initial audit.
 
 Add a screenshot of the updated Dockerfile or `docker-compose.yml` showing the selected hardening fix.
 
-Add your screenshot here.
+![alt text](week-11-docker\screenshots\Capture d'écran 2026-11-01 172921.png)
 
 ---
 
@@ -143,9 +143,9 @@ Add your screenshot here.
 
 Add a terminal screenshot showing your full name and the rebuilt or recreated service/container running successfully.
 
-Add your screenshot here.
+![alt text](week-11-docker\screenshots\Capture d'écran 2026-11-01 172921.png)
 
----
+
 
 # Task 7 — Re-Run the Audit and Compare Results
 
@@ -163,9 +163,9 @@ Add a terminal screenshot showing:
 - The updated running container
 - The final audit report
 
-Add your screenshot here.
+![alt text](week-11-docker\screenshots\Capture d'écran 2026-11-01 172921.png)
 
----
+
 
 ### Before-and-After Comparison
 
@@ -176,7 +176,13 @@ Write a short comparison covering:
 - Final audit result
 - Security benefit of the improvement
 
-Write your comparison here.
+Initial audit finding: The initial Docker security audit identified [insert the security issue found, such as running the container as root or using an outdated image].
+
+Configuration change: I updated the [Dockerfile / Docker Compose file] by [describe the change applied] to address the identified issue.
+
+Final audit result: After applying the improvement, the security audit showed [insert the actual final result].
+
+Security benefit: This improvement reduces potential security risks, limits unnecessary privileges, and helps protect the application and host system from unauthorized access.
 
 ---
 
@@ -188,13 +194,13 @@ Create a LinkedIn post about the container security checks you performed, one ha
 
 ### Evidence
 
-**LinkedIn Post URL:** `Add your LinkedIn post URL here`
+**LinkedIn Post URL:** https://lnkd.in/p/d8HxzFTis
 
 #### LinkedIn Post Screenshot
 
 Add a screenshot of the published LinkedIn post, including the final audit result.
 
-Add your screenshot here.
+![alt text](week-11-docker\screenshots\linked-ass4-week11.png)
 
 ---
 

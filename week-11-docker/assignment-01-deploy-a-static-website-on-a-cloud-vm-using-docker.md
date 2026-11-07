@@ -214,7 +214,8 @@ Create a LinkedIn post describing what you deployed, the deployment process, and
 
 #### LinkedIn Post Screenshot
 
-Add a screenshot of the published LinkedIn post here.
+
+![alt text](week-11-docker\screenshots\linked-ass4-week11.png)
 
 ---
 
