@@ -147,19 +147,18 @@ Add a browser screenshot showing:
 
 ## Final Application URL
 
-`http://<vm-public-ip>`
+http://18.153.95.88/
 
 Replace the placeholder and paste your final application URL below:
 
-[Paste your final application URL here.]
+http://18.153.95.88/
 
----
 
 # CI/CD Workflow Summary
 
 Write a short explanation of the CI/CD workflow you created.
 
-[Write your summary here.]
+The CI/CD workflow automates the process of building, testing, and deploying the application. When changes are pushed to the repository, the pipeline is triggered automatically. It checks the code, builds the application, and runs the required tests. If all stages succeed, the application is deployed to the target environment. This workflow improves efficiency, reduces manual work, and ensures consistent and reliable deployments.
 
 ---
 
@@ -182,7 +181,7 @@ https://lnkd.in/p/dTYXxVDR
 
 > Do not expose VM passwords, tokens, private keys, cloud credentials, or other sensitive information.
 
----
+
 
 # Submission Instructions
 

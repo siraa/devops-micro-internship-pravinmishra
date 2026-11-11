@@ -78,13 +78,13 @@ Claude needs project-specific context to understand the infrastructure, pipeline
 
 ### 2. Which rules keep the human responsible for the recovery action?
 
-[Write your answer here.]The rules require Claude to investigate, classify, and recommend a solution without automatically applying changes. A human must review the evidence, approve the proposed fix, execute it manually, and verify the recovery.
+The rules require Claude to investigate, classify, and recommend a solution without automatically applying changes. A human must review the evidence, approve the proposed fix, execute it manually, and verify the recovery.
 
 ### 3. Which rules protect pipeline credentials and application secrets?
 
 The rules prohibit exposing PATs, SSH private keys, passwords, cloud credentials, and application secrets in reports or screenshots. Sensitive values must be stored securely and sanitized before sharing diagnostic evidence.
 
----
+
 
 # Task 3 — Configure and Validate the Supplied Pipeline Triage Script
 
@@ -130,7 +130,7 @@ The script checks the actual pipeline run status and the results of its classifi
 
 Different exit codes allow another automation tool to identify the result without interpreting the entire report. For example, exit code 0 can indicate a healthy state, while non-zero codes can indicate a detected incident, an unknown failure, or an execution error, depending on the script's implementation.
 
----
+
 
 # Task 4 — Run and Understand the Healthy-State Report
 
@@ -156,7 +156,7 @@ The report shows that the latest Infrastructure and Application Pipeline runs co
 
 Verifying the baseline exit code confirms that the triage script completed successfully and that the initial environment was healthy. This ensures that any later failure can be compared against a known working state.
 
----
+
 
 # Task 5 — Configure and Test the Supplied /pipeline-triage Skill
 
@@ -198,7 +198,7 @@ Bash executes the diagnostic script, retrieves pipeline information and logs, cl
 
 Written instructions describe the expected behavior, but permission rules technically restrict which actions can be performed. Both are necessary to reduce the risk of unauthorized modifications or accidental execution of dangerous commands.
 
----
+
 
 # Task 6 — Introduce a Safe Failure in the Application Pipeline
 
@@ -282,7 +282,6 @@ Corrected Application Pipeline run showing the temporary branch and successful s
 
 ![alt text](screenshots\Capture d'écran 2026-11-02 181632.png)
 
----
 
 ### Screenshot 11 — Recovery Triage Result
 
@@ -327,7 +326,7 @@ Published LinkedIn post showing its text and at least one image or link.
 
 ![alt text](week-10-azure-devops\screenshots\post-ass1-week10.png)
 
----
+
 
 # Required Repository Files
 
@@ -339,7 +338,7 @@ Confirm that the following files are available in your repository:
 * [ ] `reports/incident-failure-report.txt`
 * [ ] `reports/recovery-report.txt`
 
----
+
 
 # Submission Instructions
 
@@ -389,11 +388,11 @@ Confirm that the following files are available in your repository:
 
 # Final Submission
 
-**Full Name:** [Enter your full name]
+**Full Name:** Tayssir Oueslati
 
-**GitHub Repository or Fork URL:** [Paste your repository URL]
+**GitHub Repository or Fork URL:** https://github.com/siraa/devops-micro-internship-pravinmishra
 
-**LinkedIn Post URL:** [Paste your public LinkedIn post URL]
+**LinkedIn Post URL:** https://www.linkedin.com/in/taysir-ouaslati-9b6527a3/
 
 ---
 

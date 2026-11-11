@@ -254,8 +254,8 @@ Turn the Bash script into a reusable Claude Code skill called `/ansible-risk-rev
 
 #### Screenshot 13 — Claude Code output after running `/ansible-risk-review`
 
-Add your screenshot here.![alt text](screenshots\output-ass5-week9.png)
----
+![alt text](screenshots\output-ass5-week9.png)
+
 
 ### Notes
 
@@ -271,7 +271,7 @@ These tools allow Claude Code to execute read-only commands, inspect project fil
 
 File editing is not allowed to prevent accidental or unauthorized changes. The purpose of the skill is to analyze risks, not to modify the project or apply configurations.
 
----
+
 
 **3. What part is handled by Bash?**
 

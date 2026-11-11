@@ -20,7 +20,7 @@ Create a clean working directory for all Pod-related files used in this lab.
 
 #### Screenshot 01 — Output of `pwd` showing the current directory ending in `/k8s-labs/pods`
 
-![alt text](week-12-kubernetes\screenshots\Capture d'écran 2026-10-09 204320.png)
+![alt text](week-12-kubernetes\screenshots\sc1-T1-ass1-week12.png)
 
 
 

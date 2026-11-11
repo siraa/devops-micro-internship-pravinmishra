@@ -154,7 +154,7 @@ The inventory tells Ansible which VM to manage and which SSH user to use.
 
 #### Screenshot 7 — `inventory.ini` showing the VM under the `web` group
 
-Add your screenshot here.
+![alt text](week-09-ansible\screenshots\sc1.1-T1-ass5-week9.png)
 
 ---
 
