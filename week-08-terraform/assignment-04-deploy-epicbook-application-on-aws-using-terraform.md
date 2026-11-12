@@ -205,7 +205,7 @@ The RDS module must include:
 
 Add a screenshot of VS Code showing the DB subnet group and RDS MySQL configuration.
 
-Add your screenshot here.
+![alt text](screenshots\sc3-T3-ass2-week8.png)
 
 ---
 

@@ -93,7 +93,7 @@ Create Standard Public Load Balancer `web-public-elb` in `vnet-demo-rg`, with fr
 
 #### Screenshot 8 — Load Balancer frontend configuration showing its public IP
 
-Add your screenshot here.
+![alt text](screenshots\sc3-T2ass7-week6.png)
 
 ---
 
