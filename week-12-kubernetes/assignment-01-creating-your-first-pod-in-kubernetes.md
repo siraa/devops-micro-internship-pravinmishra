@@ -54,19 +54,19 @@ Define the NGINX Pod in a YAML file, apply the manifest, and verify the resultin
 
 #### Screenshot 04 — The filename `nginx-pod.yaml` and the complete YAML manifest with clear, readable indentation
 
-![alt text](week-12-kubernetes\screenshots\Capture d'écran 2026-10-09 212215.png)
+![alt text](screenshots\Capture d'écran 2026-10-09 212215.png)
 
 ---
 
 #### Screenshot 05 — Output of `kubectl apply -f nginx-pod.yaml` showing the successful creation message
 
-![alt text](week-12-kubernetes\screenshots\Capture d'écran 2026-10-09 212215.png)
+![alt text](screenshots\Capture d'écran 2026-10-09 212215.png)
 
 ---
 
 #### Screenshot 06 — Output of `kubectl get pods` showing the declarative `nginx-pod` with `1/1` under `READY` and `Running` under `STATUS`
 
-![alt text](week-12-kubernetes\screenshots\Capture d'écran 2026-10-09 212215.png)
+![alt text](screenshots\Capture d'écran 2026-10-09 212215.png)
 
 ---
 
