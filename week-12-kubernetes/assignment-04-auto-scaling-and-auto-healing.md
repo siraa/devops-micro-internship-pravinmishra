@@ -34,7 +34,7 @@ Create and enter a dedicated directory for the auto-scaling lab.
 
 #### Screenshot 1 — Terminal showing that you are working inside `~/k8s-labs/autoscaling`
 
-Add your screenshot here.
+![alt text](screenshots\sc1-T1-ass4-week12.png)
 
 ---
 
@@ -62,25 +62,25 @@ Create a Deployment with two replicas, delete one Pod, and observe Kubernetes cr
 
 #### Screenshot 2 — Completed `autohealing-deployment.yaml` manifest
 
-Add your screenshot here.
+![alt text](screenshots\sc2-T2-ass4-week12.png)
 
 ---
 
 #### Screenshot 3 — Output of `kubectl get pods` showing two running Pods before deletion
 
-Add your screenshot here.
+![alt text](screenshots\sc2-T2-ass4-week12.png)
 
 ---
 
 #### Screenshot 4 — Output of the `kubectl delete pod` command
 
-Add your screenshot here.
+![alt text](screenshots\sc1-T1-ass4-week12.png)
 
 ---
 
 #### Screenshot 5 — Output of `kubectl get pods` showing the replacement Pod and two running Pods
 
-Add your screenshot here.
+![alt text](screenshots\sc3-4-T2-ass4-week12.png)
 
 ---
 
@@ -88,19 +88,19 @@ Add your screenshot here.
 
 **1. What happened after you deleted one Pod?**
 
-Add your answer here.
+After deleting one Pod, Kubernetes automatically created a replacement Pod to maintain the desired number of 2 replicas.
 
 ---
 
 **2. What Kubernetes resource maintains the desired replica count for this Deployment?**
 
-Add your answer here.
+The ReplicaSet maintains the desired number of Pod replicas by continuously monitoring and replacing missing Pods.
 
 ---
 
 **3. What proves that auto-healing worked?**
 
-Add your answer here.
+The kubectl get pods command showed that a new Pod was automatically created and reached the Running status, while the Deployment continued to maintain 2 replicas. 
 
 ---
 
@@ -114,13 +114,13 @@ Create a Deployment with CPU resource requests and limits so that HPA can calcul
 
 #### Screenshot 6 — Completed `hpa-deployment.yaml` manifest showing CPU requests and limits
 
-Add your screenshot here.
+![alt text](screenshots\sc3-4-T2-ass4-week12.png)
 
 ---
 
 #### Screenshot 7 — Output showing `nginx-deployment` and its running Pods
 
-Add your screenshot here.
+![alt text](screenshots\scx8-T4-ass4-week12.png)
 
 ---
 
@@ -128,19 +128,19 @@ Add your screenshot here.
 
 **1. What does `cpu: "100m"` mean?**
 
-Add your answer here.
+It means that the container requests 100 millicores of CPU, which is equal to 0.1 of one CPU core.
 
 ---
 
 **2. What is the difference between a CPU request and a CPU limit?**
 
-Add your answer here.
+A CPU request is the amount of CPU resources Kubernetes guarantees for scheduling the container. A CPU limit is the maximum amount of CPU the container is allowed to use.
 
 ---
 
 **3. Why does CPU-based HPA require CPU requests?**
 
-Add your answer here.
+CPU-based HPA uses CPU requests as a reference to calculate CPU utilization as a percentage. Without CPU requests, Kubernetes cannot calculate the CPU utilization percentage needed for autoscaling.
 
 ---
 
@@ -154,7 +154,7 @@ Ensure the cluster can collect resource metrics for the HPA.
 
 #### Screenshot 8 — Output showing Metrics Server running, or `kubectl top pods` displaying Pod metrics
 
-Add your screenshot here.
+![alt text](screenshots\scx8-T4-ass4-week12.png)
 
 ---
 
@@ -162,19 +162,19 @@ Add your screenshot here.
 
 **1. Why does HPA need Metrics Server?**
 
-Add your answer here.
+HPA needs Metrics Server to collect CPU and memory usage metrics from Pods and use this information to make scaling decisions.
 
 ---
 
 **2. What issue can occur if Metrics Server is not working?**
 
-Add your answer here.
+HPA cannot retrieve the required resource metrics. As a result, CPU utilization may appear as <unknown>, and automatic scaling may not work correctly.
 
 ---
 
 **3. What does `kubectl top pods` help you check?**
 
-Add your answer here.
+The kubectl top pods command displays the current CPU and memory usage of Pods. It helps verify that Metrics Server is working and providing resource metrics.
 
 ---
 
@@ -188,13 +188,13 @@ Create an HPA that keeps at least two Pods running and can scale up to five Pods
 
 #### Screenshot 9 — The imperative command output OR completed `hpa-nginx.yaml` manifest
 
-Add your screenshot here.
+![alt text](screenshots\sc11-T4-ass4-week12.png)
 
 ---
 
 #### Screenshot 10 — Output of `kubectl get hpa` and the relevant `kubectl describe hpa` command
 
-Add your screenshot here.
+![alt text](screenshots\sc11-T4-ass4-week12.png)
 
 ---
 
@@ -202,25 +202,25 @@ Add your screenshot here.
 
 **1. What does `minReplicas: 2` mean?**
 
-Add your answer here.
+It means that the HPA will maintain at least 2 Pod replicas, even when CPU utilization is low.
 
 ---
 
 **2. What does `maxReplicas: 5` mean?**
 
-Add your answer here.
+It means that the HPA can scale the Deployment up to a maximum of 5 Pod replicas when CPU utilization increases.
 
 ---
 
 **3. What does `averageUtilization: 50` mean?**
 
-Add your answer here.
+It means that the HPA tries to maintain average CPU utilization at 50% of the CPU requests defined for the containers. If CPU utilization increases above this target, HPA may add more Pods.
 
 ---
 
 **4. Why should only one HPA manage a Deployment at a time?**
 
-Add your answer here.
+Because multiple HPAs managing the same Deployment can conflict with each other by trying to control the replica count simultaneously, leading to unpredictable scaling behavior.
 
 ---
 
@@ -238,13 +238,13 @@ Task status: Add your status here.
 
 #### Screenshot 11 — Terminal showing the CPU-load command running inside the selected Pod
 
-Add your screenshot here if completed.
+![alt text](screenshots\scpods-ass4-week12.png)
 
 ---
 
 #### Screenshot 12 — Output of `kubectl get hpa` and `kubectl get pods` while HPA evaluates or changes the replica count
 
-Add your screenshot here if completed.
+![alt text](screenshots\scpods-ass4-week12.png)
 
 ---
 
@@ -254,19 +254,19 @@ Complete these answers only if you perform the optional test.
 
 **1. Did the HPA change the number of Pods? Explain what you observed.**
 
-Add your answer here.
+Kubernetes can adjust the number of replicas based on CPU utilization and scaling decisions.
 
 ---
 
 **2. If scaling did not happen, what are two possible reasons?**
 
-Add your answer here, or write “Not applicable — scaling occurred.”
+Not applicable — scaling occurred.
 
 ---
 
 **3. Why is automatic scale-down useful after traffic decreases?**
 
-Add your answer here.
+Automatic scale-down reduces the number of Pods when traffic or resource usage decreases. This helps save CPU and memory resources, reduce infrastructure costs, and avoid running unnecessary Pods.
 
 ---
 
@@ -276,11 +276,11 @@ Add your answer here.
 
 #### Screenshot 13 — Published LinkedIn post showing your name, the required explanation, and the attached Kubernetes screenshot
 
-Add your screenshot here.
+![alt text](\screenshots\linked-ass4-week12.png)
 
 #### Linkedin Post Link
 
-Add your link here
+https://lnkd.in/p/djptrgUd
 
 ---
 
