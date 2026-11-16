@@ -92,19 +92,19 @@ Update NGINX to 1.23.1, observe the rollout, and return to the previous stable r
 
 #### Screenshot 07 — ReplicaSet output showing the previous and updated ReplicaSets, and Deployment details showing `nginx:1.23.1`
 
-![alt text](week-12-kubernetes\screenshots\sc11-T5-ass3-week12.png)
+![alt text](screenshots\sc11-T5-ass3-week12.png)
 
 ---
 
 #### Screenshot 08 — Rollback command and rollout status showing successful completion
 
-Add your screenshot here.
+![alt text](screenshots\sc11-T5-ass3-week12.png)
 
 ---
 
 #### Screenshot 09 — Rollout history and Deployment details showing the restored `nginx:1.21.1` image
 
-Add your screenshot here.
+![alt text](screenshots\sc11-T5-ass3-week12.png)
 
 ---
 

@@ -42,13 +42,13 @@ Create and enter a dedicated directory for the auto-scaling lab.
 
 **1. What is the difference between auto-healing and auto-scaling?**
 
-Add your answer here.
+Auto-healing automatically detects and replaces failed or unhealthy Pods to maintain application availability. Auto-scaling automatically increases or decreases the number of Pods based on resource usage, such as CPU, to handle changes in workload.
 
 ---
 
 **2. Which Kubernetes feature will you use for CPU-based auto-scaling?**
 
-Add your answer here.
+The Horizontal Pod Autoscaler (HPA) is used for CPU-based auto-scaling. It automatically adjusts the number of Pod replicas based on CPU utilization.
 
 ---
 
